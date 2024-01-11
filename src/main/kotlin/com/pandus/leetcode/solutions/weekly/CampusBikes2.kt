@@ -2,6 +2,7 @@ package com.pandus.leetcode.solutions.weekly
 
 import kotlin.math.*
 
+//Reference: https://leetcode.com/problems/campus-bikes-ii
 class CampusBikes2 {
     private var visited = BooleanArray(10)
     private var smallestDistanceSum = Int.MAX_VALUE

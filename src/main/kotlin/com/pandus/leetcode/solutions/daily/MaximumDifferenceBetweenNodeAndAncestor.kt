@@ -1,5 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
+//Reference: https://leetcode.com/problems/maximum-difference-between-node-and-ancestor
 class MaximumDifferenceBetweenNodeAndAncestor {
 
     fun maxAncestorDiff(root: TreeNode?): Int {

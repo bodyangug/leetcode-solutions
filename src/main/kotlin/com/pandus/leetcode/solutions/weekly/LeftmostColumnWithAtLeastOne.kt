@@ -2,6 +2,7 @@ package com.pandus.leetcode.solutions.weekly
 
 import kotlin.math.min
 
+//Reference: https://leetcode.com/problems/leftmost-column-with-at-least-a-one
 class LeftmostColumnWithAtLeastOne {
     fun leftMostColumnWithOne(binaryMatrix: BinaryMatrix): Int {
         val rows = binaryMatrix.dimensions()[0]

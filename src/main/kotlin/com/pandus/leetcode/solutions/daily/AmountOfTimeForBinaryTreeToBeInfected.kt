@@ -2,6 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.abs
 
+//Reference: https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected
 class AmountOfTimeForBinaryTreeToBeInfected {
     private var maxDistance = 0
     fun amountOfTime(root: TreeNode?, start: Int): Int {

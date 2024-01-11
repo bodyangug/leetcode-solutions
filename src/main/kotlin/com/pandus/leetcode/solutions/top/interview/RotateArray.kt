@@ -1,5 +1,6 @@
 package com.pandus.leetcode.solutions.top.interview
 
+//Reference: https://leetcode.com/problems/rotate-array
 class RotateArray {
     fun rotate1(nums: IntArray, k: Int): Unit {
         nums.mapIndexed { index, i ->
