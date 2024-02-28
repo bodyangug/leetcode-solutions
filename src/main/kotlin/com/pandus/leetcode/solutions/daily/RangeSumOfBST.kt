@@ -1,5 +1,7 @@
 package com.pandus.leetcode.solutions.daily
 
+import com.pandus.leetcode.solutions.model.TreeNode
+
 
 //Refrence: https://leetcode.com/problems/range-sum-of-bst
 class RangeSumOfBST {
@@ -27,9 +29,4 @@ class RangeSumOfBST {
         }
     }
 
-}
-
-class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
 }

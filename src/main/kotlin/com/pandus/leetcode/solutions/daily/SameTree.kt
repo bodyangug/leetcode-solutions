@@ -1,5 +1,7 @@
 package com.pandus.leetcode.solutions.daily
 
+import com.pandus.leetcode.solutions.model.TreeNode
+
 //Reference: https://leetcode.com/problems/same-tree
 class SameTree {
 
