@@ -21,7 +21,3 @@ class MissingNumber {
         return ans
     }
 }
-
-fun main() {
-    MissingNumber().missingNumber(intArrayOf(0, 1))
-}

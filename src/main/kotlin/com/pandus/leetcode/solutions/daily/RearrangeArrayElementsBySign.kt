@@ -28,7 +28,3 @@ class RearrangeArrayElementsBySign {
         return -1
     }
 }
-
-fun main() {
-    RearrangeArrayElementsBySign().rearrangeArray(intArrayOf(3, 1, -2, -5, 2, -4))
-}

@@ -8,7 +8,3 @@ class UniqueNumberOfOccurrences {
             .let { it.size == it.toSet().size }
     }
 }
-
-fun main() {
-    UniqueNumberOfOccurrences().uniqueOccurrences(intArrayOf(1, 2))
-}

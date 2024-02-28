@@ -10,7 +10,3 @@ class SortCharactersByFrequency {
             .joinToString(separator = "") { (char, freq) -> char.toString().repeat(freq) }
     }
 }
-
-fun main() {
-    SortCharactersByFrequency().frequencySort("tree")
-}

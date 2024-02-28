@@ -16,7 +16,3 @@ class ClimbingStairs {
         return dp[n]
     }
 }
-
-fun main() {
-    ClimbingStairs().climbStairs(6)
-}
