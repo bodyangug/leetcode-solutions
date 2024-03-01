@@ -1,5 +1,7 @@
 package com.pandus.leetcode.solutions.top.interview
 
+import com.pandus.leetcode.solutions.model.ListNode
+
 //Reference: https://leetcode.com/problems/add-two-numbers/
 class AddTwoNumbers {
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
@@ -33,8 +35,4 @@ class AddTwoNumbers {
         }
         return tail
     }
-}
-
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
 }

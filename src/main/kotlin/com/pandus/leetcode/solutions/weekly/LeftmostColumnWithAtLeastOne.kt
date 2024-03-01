@@ -1,5 +1,6 @@
 package com.pandus.leetcode.solutions.weekly
 
+import com.pandus.leetcode.solutions.model.BinaryMatrix
 import kotlin.math.min
 
 //Reference: https://leetcode.com/problems/leftmost-column-with-at-least-a-one
@@ -25,15 +26,5 @@ class LeftmostColumnWithAtLeastOne {
             }
         }
         return if (smallestIndex == cols) -1 else smallestIndex
-    }
-}
-
-class BinaryMatrix {
-    fun get(row: Int, col: Int): Int {
-        return 0
-    }
-
-    fun dimensions(): List<Int> {
-        return emptyList()
     }
 }
