@@ -1,8 +1,5 @@
 package com.pandus.leetcode.solutions.daily
 
-import jdk.internal.org.jline.utils.Colors
-
-
 //Reference: https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends
 class MinimumLengthOfStringAfterDeletingSimilarEnds {
     fun minimumLength(s: String): Int {
