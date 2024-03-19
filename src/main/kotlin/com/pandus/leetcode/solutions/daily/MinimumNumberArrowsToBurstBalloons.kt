@@ -1,7 +1,5 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.*
-
 
 //Reference: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons
 class MinimumNumberArrowsToBurstBalloons {
