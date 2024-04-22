@@ -36,6 +36,6 @@ jobs:
         with:
           gradle-version: 7.4.2
       - run: gradle build
-      - uses: actions/drill4j-report-github-action@v0.1
+      - uses: bodyangug/drill4j-report-github-action@v0.1
         with:
           who-to-greet: 'test'
