@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.*
+import java.util.PriorityQueue
 
 
 //Reference: https://leetcode.com/problems/cheapest-flights-within-k-stops
