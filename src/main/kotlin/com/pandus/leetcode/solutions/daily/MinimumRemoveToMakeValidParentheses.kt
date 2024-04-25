@@ -20,7 +20,7 @@ class MinimumRemoveToMakeValidParentheses {
             }
         }
         // 2. convert indexes from stack to remove
-        while (!stack.isEmpty()) indexToRemove.add(stack.removeFirst());
+        while (!stack.isEmpty()) indexToRemove.add(stack.removeFirst())
 
         // 3. generate new string using info from indexToRemove
         val sb = StringBuilder()

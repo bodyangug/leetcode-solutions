@@ -1,7 +1,5 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.*
-
 
 //Reference: https://leetcode.com/problems/meeting-rooms-iii
 class MeetingRooms3 {

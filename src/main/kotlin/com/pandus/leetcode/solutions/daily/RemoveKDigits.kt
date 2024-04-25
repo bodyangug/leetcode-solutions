@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.*
+import java.util.LinkedList
 
 
 //Reference: https://leetcode.com/problems/remove-k-digits

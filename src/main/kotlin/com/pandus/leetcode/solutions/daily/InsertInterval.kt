@@ -2,7 +2,6 @@ package com.pandus.leetcode.solutions.daily
 
 import java.lang.Integer.max
 import java.lang.Integer.min
-import java.util.ArrayList
 
 
 //Reference: https://leetcode.com/problems/insert-interval

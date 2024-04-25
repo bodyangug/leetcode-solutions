@@ -1,6 +1,7 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.*
+import java.util.PriorityQueue
+import java.util.Queue
 
 //Reference: https://leetcode.com/problems/furthest-building-you-can-reach
 class FurthestBuildingYouCanReach {

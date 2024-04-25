@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.*
+import java.util.Stack
 
 
 //Reference: https://leetcode.com/problems/find-all-people-with-secret

@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.ListNode
-import java.util.HashSet
 
 
 //Reference: https://leetcode.com/problems/linked-list-cycle

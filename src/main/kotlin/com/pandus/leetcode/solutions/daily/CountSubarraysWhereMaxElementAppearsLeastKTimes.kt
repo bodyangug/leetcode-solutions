@@ -1,7 +1,5 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.*
-
 
 //Reference: https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times
 class CountSubarraysWhereMaxElementAppearsLeastKTimes {
