@@ -1,7 +1,5 @@
 package com.pandus.leetcode.solutions.daily
 
-import kotlin.math.max
-
 
 //Reference: https://leetcode.com/problems/find-all-groups-of-farmland
 class FindAllGroupsOfFarmland {

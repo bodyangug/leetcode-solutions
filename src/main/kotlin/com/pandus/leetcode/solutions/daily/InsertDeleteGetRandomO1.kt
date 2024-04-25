@@ -1,8 +1,5 @@
 package com.pandus.leetcode.solutions.daily
 
-import kotlin.collections.HashMap
-import kotlin.random.Random
-
 
 //Reference: https://leetcode.com/problems/insert-delete-getrandom-o1
 class InsertDeleteGetRandomO1 {

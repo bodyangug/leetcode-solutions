@@ -11,9 +11,9 @@ class NumberOfStudentsUnableToEatLunch {
         }
         sandwiches.forEach {
             // No student wants the circle sandwich on top of the stack
-            if (it == 0 && countPreferCircle == 0) return countPreferSquare;
+            if (it == 0 && countPreferCircle == 0) return countPreferSquare
             // No student wants the square sandwich on top of the stack
-            if (it == 1 && countPreferSquare == 0) return countPreferCircle;
+            if (it == 1 && countPreferSquare == 0) return countPreferCircle
             if (it == 1) countPreferSquare--
             else countPreferCircle--
         }
