@@ -1,7 +1,5 @@
 package com.pandus.leetcode.solutions.daily
 
-import kotlin.math.max
-
 //Reference: https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram
 class MinimumNumberStepsToMakeTwoStringsAnagram {
     fun minSteps(s: String, t: String): Int {

@@ -1,6 +1,7 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.*
+import java.util.LinkedList
+import java.util.Queue
 
 
 //Reference:https://leetcode.com/problems/reveal-cards-in-increasing-order

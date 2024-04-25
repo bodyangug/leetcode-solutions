@@ -1,7 +1,5 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.*
-
 //Reference: https://leetcode.com/problems/find-players-with-zero-or-one-losses
 class FindPlayersWithZeroLosses {
     fun findWinners(matches: Array<IntArray>): List<List<Int>> {

@@ -20,7 +20,7 @@ class ImplementQueueUsingStacks {
     fun pop(): Int {
         if (s2.empty()) {
             while (!s1.empty())
-                s2.push(s1.pop());
+                s2.push(s1.pop())
         }
         return s2.pop()
     }
