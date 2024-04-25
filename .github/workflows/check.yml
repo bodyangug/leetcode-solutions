@@ -39,4 +39,4 @@ jobs:
       - uses: bodyangug/drill4j-report-github-action@v0.28
         with:
           who-to-greet: 'Mona the Octocat'
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.TOKEN }}
