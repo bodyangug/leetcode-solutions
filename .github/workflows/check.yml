@@ -36,7 +36,8 @@ jobs:
         with:
           gradle-version: 8.2
       - run: gradle build
-      - uses: bodyangug/drill4j-report-github-action@v0.30
+      - uses: bodyangug/drill4j-report-github-action@v0.31
         with:
           who-to-greet: 'Mona the Octocat'
           repo-token: ${{ secrets.TOKEN }}
+
