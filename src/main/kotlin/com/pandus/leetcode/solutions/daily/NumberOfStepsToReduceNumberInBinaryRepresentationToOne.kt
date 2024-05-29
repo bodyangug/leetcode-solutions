@@ -20,7 +20,3 @@ class NumberOfStepsToReduceNumberInBinaryRepresentationToOne {
         return steps + carry
     }
 }
-
-fun main() {
-    NumberOfStepsToReduceNumberInBinaryRepresentationToOne().numSteps("1101")
-}
