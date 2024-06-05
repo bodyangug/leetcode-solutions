@@ -1,9 +1,5 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.Arrays
-import kotlin.math.min
-
-
 //Reference: https://leetcode.com/problems/find-common-characters
 class FindCommonCharacters {
     fun commonChars(words: Array<String>): List<String> {
