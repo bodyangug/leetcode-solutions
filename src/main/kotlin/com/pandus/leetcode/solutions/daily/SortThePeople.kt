@@ -9,8 +9,3 @@ class SortThePeople {
             .toTypedArray()
     }
 }
-
-fun main() {
-    val sortPeople = SortThePeople().sortPeople(arrayOf("Mary", "John", "Emma"), intArrayOf(180, 165, 170))
-    sortPeople.forEach { println(it) }
-}
