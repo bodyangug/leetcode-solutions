@@ -4,9 +4,7 @@ on:
     branches:
       - 'main'
     paths:
-      - '**/src/**'
-      - '**.gradle.kts'
-      - 'gradle.properties'
+      - '*'
 
 jobs:
   build-agent:
