@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/three-consecutive-odds
+// Reference: https://leetcode.com/problems/three-consecutive-odds
 class ThreeConsecutiveOdds {
     private var consecutiveOdds = 0
 

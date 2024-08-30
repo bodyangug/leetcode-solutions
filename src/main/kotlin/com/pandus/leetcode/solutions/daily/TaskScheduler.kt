@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/task-scheduler
+// Reference: https://leetcode.com/problems/task-scheduler
 class TaskScheduler {
 
     fun leastInterval(tasks: CharArray, n: Int): Int {

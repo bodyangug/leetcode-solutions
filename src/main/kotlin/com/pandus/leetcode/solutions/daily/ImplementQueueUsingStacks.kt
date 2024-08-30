@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.Stack
 
-
-//Reference: https://leetcode.com/problems/implement-queue-using-stacks
+// Reference: https://leetcode.com/problems/implement-queue-using-stacks
 class ImplementQueueUsingStacks {
 
     private val s1 = Stack<Int>()
@@ -35,5 +34,4 @@ class ImplementQueueUsingStacks {
     fun empty(): Boolean {
         return s1.empty() && s2.empty()
     }
-
 }

@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/kth-distinct-string-in-an-array
+// Reference: https://leetcode.com/problems/kth-distinct-string-in-an-array
 class KthDistinctStringInArray {
     fun kthDistinct(arr: Array<String>, k: Int): String {
         var k = k

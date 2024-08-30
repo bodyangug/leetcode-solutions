@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-//Reference: https://leetcode.com/problems/add-one-row-to-tree
+// Reference: https://leetcode.com/problems/add-one-row-to-tree
 class AddOneRowToTree {
     fun addOneRow(
         t: TreeNode?,
@@ -26,12 +26,12 @@ class AddOneRowToTree {
     ) {
         if (node == null) return
         if (curDepth == targetDepth - 1) {
-            //insert left
+            // insert left
             node.left?.let {
                 val t = it
                 node.left = TreeNode(numToInsert).apply { left = t }
             }
-            //insert right
+            // insert right
             node.right?.let {
                 val t = it
                 node.right = TreeNode(numToInsert).apply { right = t }

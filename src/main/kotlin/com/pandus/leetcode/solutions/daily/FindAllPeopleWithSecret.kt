@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.Stack
 
-
-//Reference: https://leetcode.com/problems/find-all-people-with-secret
+// Reference: https://leetcode.com/problems/find-all-people-with-secret
 class FindAllPeopleWithSecret {
 
     fun findAllPeople(n: Int, meetings: Array<IntArray>, firstPerson: Int): List<Int> {
@@ -40,5 +39,4 @@ class FindAllPeopleWithSecret {
             earliest[i] != Int.MAX_VALUE
         }
     }
-
 }

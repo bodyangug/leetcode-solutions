@@ -3,7 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import com.pandus.leetcode.solutions.model.TreeNode
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/diameter-of-binary-tree
+// Reference: https://leetcode.com/problems/diameter-of-binary-tree
 class DiameterOfBinaryTree {
 
     private var ans = 0

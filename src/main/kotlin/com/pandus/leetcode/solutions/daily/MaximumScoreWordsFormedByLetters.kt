@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/maximum-score-words-formed-by-letters
+// Reference: https://leetcode.com/problems/maximum-score-words-formed-by-letters
 class MaximumScoreWordsFormedByLetters {
     private var maxScore = 0
     private lateinit var freq: IntArray
@@ -16,16 +15,6 @@ class MaximumScoreWordsFormedByLetters {
         val memo = mutableMapOf<Pair<Int, IntArray>, Int>()
         check(words.size - 1, words, score, IntArray(26), 0, memo)
         return maxScore
-    }
-
-    // Check if adding this word exceeds the frequency of any letter
-    private fun isValidWord(subsetLetters: IntArray): Boolean {
-        for (c in 0..25) {
-            if (freq[c] < subsetLetters[c]) {
-                return false
-            }
-        }
-        return true
     }
 
     private fun check(
@@ -52,10 +41,10 @@ class MaximumScoreWordsFormedByLetters {
         check(w - 1, words, score, subsetLetters, totalScore, memo)
 
         // Adding words[w] to the current subset
-        val L = words[w].length
+        val l = words[w].length
         var valid = true
         var newScore = totalScore
-        for (i in 0 until L) {
+        for (i in 0 until l) {
             val c = words[w][i] - 'a'
             subsetLetters[c]++
             newScore += score[c]
@@ -70,12 +59,11 @@ class MaximumScoreWordsFormedByLetters {
         }
 
         // Rollback effects of this word
-        for (i in 0 until L) {
+        for (i in 0 until l) {
             val c = words[w][i] - 'a'
             subsetLetters[c]--
         }
 
         memo[key] = maxScore
     }
-
 }

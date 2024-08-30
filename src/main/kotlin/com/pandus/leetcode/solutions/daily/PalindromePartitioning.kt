@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference:https://leetcode.com/problems/palindrome-partitioning
+// Reference:https://leetcode.com/problems/palindrome-partitioning
 class PalindromePartitioning {
     fun partition(s: String): List<List<String>> {
         val result = mutableListOf<List<String>>()
@@ -30,5 +30,4 @@ class PalindromePartitioning {
             }
         }
     }
-
 }

@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.*
 
-
-//Reference: https://leetcode.com/problems/range-sum-of-sorted-subarray-sums
+// Reference: https://leetcode.com/problems/range-sum-of-sorted-subarray-sums
 class RangeSumOfSortedSubarraySums {
 
     fun rangeSum(nums: IntArray, n: Int, left: Int, right: Int): Int {

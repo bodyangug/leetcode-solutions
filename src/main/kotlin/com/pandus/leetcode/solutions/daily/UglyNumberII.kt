@@ -1,9 +1,8 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.*
+import java.util.PriorityQueue
 
-
-//Reference: https://leetcode.com/problems/ugly-number-ii
+// Reference: https://leetcode.com/problems/ugly-number-ii
 class UglyNumberII {
     fun nthUglyNumber(n: Int): Int {
         val primes = intArrayOf(2, 3, 5)

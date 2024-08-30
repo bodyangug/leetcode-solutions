@@ -1,5 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
+// Reference: https://leetcode.com/problems/assign-cookies
 class AssignCookies {
     fun findContentChildren(g: IntArray, s: IntArray): Int {
         g.sort()

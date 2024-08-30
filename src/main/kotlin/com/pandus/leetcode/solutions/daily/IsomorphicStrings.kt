@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/isomorphic-strings
+// Reference: https://leetcode.com/problems/isomorphic-strings
 class IsomorphicStrings {
     private fun transformString(s: String): IntArray {
         val indexMapping = mutableMapOf<Char, Int>()

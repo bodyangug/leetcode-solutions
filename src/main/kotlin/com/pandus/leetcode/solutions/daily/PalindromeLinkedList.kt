@@ -2,9 +2,9 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.ListNode
 
-//Reference: https://leetcode.com/problems/palindrome-linked-list
+// Reference: https://leetcode.com/problems/palindrome-linked-list
 class PalindromeLinkedList {
-    //O(n)
+    // O(n)
     fun isPalindrome(head: ListNode?): Boolean {
         if (head == null) return true
         val list = ArrayList<Int>()
@@ -20,7 +20,7 @@ class PalindromeLinkedList {
 
     // O(1)
     fun isPalindrome2(head: ListNode?): Boolean {
-        if (head?.next == null) return true  // empty or single-node lists are palindromes
+        if (head?.next == null) return true // empty or single-node lists are palindromes
 
         // go to the middle of the list
         var slow = head

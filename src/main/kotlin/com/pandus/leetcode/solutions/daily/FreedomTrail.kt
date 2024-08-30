@@ -4,8 +4,7 @@ import java.util.PriorityQueue
 import kotlin.math.abs
 import kotlin.math.min
 
-
-//Reference: https://leetcode.com/problems/freedom-trail
+// Reference: https://leetcode.com/problems/freedom-trail
 class FreedomTrail {
 
     fun findRotateSteps(ring: String, key: String): Int {
@@ -24,9 +23,7 @@ class FreedomTrail {
         // Initialize the min heap (priority queue) with the starting point
         // Each element of the heap is an array of integers representing:
         // totalSteps, ringIndex, keyIndex
-        val heap = PriorityQueue(Comparator.comparingInt { a: IntArray ->
-            a[0]
-        })
+        val heap = PriorityQueue(Comparator.comparingInt { a: IntArray -> a[0] })
         heap.offer(intArrayOf(0, 0, 0))
 
         // HashSet to keep track of visited states
@@ -58,7 +55,8 @@ class FreedomTrail {
                 heap.offer(
                     intArrayOf(
                         totalSteps + countSteps(ringIndex, nextIndex, ringLen),
-                        nextIndex, keyIndex + 1
+                        nextIndex,
+                        keyIndex + 1
                     )
                 )
             }

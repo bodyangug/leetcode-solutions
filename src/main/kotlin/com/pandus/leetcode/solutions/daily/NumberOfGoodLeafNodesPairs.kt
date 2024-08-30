@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-//Reference: https://leetcode.com/problems/number-of-good-leaf-nodes-pairs
+// Reference: https://leetcode.com/problems/number-of-good-leaf-nodes-pairs
 class NumberOfGoodLeafNodesPairs {
     private var ans = 0
     private var distance: Int = -1

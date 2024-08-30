@@ -3,7 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import kotlin.math.max
 import kotlin.math.min
 
-//Reference: https://leetcode.com/problems/count-subarrays-with-fixed-bounds
+// Reference: https://leetcode.com/problems/count-subarrays-with-fixed-bounds
 class CountSubarraysWithFixedBounds {
     fun countSubarrays(nums: IntArray, minK: Int, maxK: Int): Long {
         var answer: Long = 0

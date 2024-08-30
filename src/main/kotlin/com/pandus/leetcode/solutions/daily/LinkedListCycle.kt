@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.ListNode
 
-
-//Reference: https://leetcode.com/problems/linked-list-cycle
+// Reference: https://leetcode.com/problems/linked-list-cycle
 class LinkedListCycle {
     fun hasCycle(head: ListNode?): Boolean {
         val nodesSeen = HashSet<ListNode>()

@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/stone-game-ii
+// Reference: https://leetcode.com/problems/stone-game-ii
 class StoneGameII {
     fun stoneGameII(piles: IntArray): Int {
         val length = piles.size
@@ -22,14 +22,14 @@ class StoneGameII {
         // Start from the last index to store the future state first.
         for (index in length - 1 downTo 0) {
             for (maxTillNow in length - 1 downTo 1) {
-                var X = 1
-                while (X <= 2 * maxTillNow && index + X <= length) {
+                var x = 1
+                while (x <= 2 * maxTillNow && index + x <= length) {
                     dp[index][maxTillNow] =
                         max(
                             dp[index][maxTillNow],
-                            (suffixSum[index] - dp[index + X][max(maxTillNow, X)])
+                            (suffixSum[index] - dp[index + x][max(maxTillNow, x)])
                         )
-                    X++
+                    x++
                 }
             }
         }

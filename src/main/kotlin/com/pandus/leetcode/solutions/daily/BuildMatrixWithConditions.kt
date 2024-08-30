@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.*
 
-
-//Reference: https://leetcode.com/problems/build-a-matrix-with-conditions
+// Reference: https://leetcode.com/problems/build-a-matrix-with-conditions
 class BuildMatrixWithConditions {
     fun buildMatrix(
         k: Int,

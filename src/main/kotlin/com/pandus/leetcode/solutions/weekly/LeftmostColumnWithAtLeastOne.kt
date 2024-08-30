@@ -3,7 +3,7 @@ package com.pandus.leetcode.solutions.weekly
 import com.pandus.leetcode.solutions.model.BinaryMatrix
 import kotlin.math.min
 
-//Reference: https://leetcode.com/problems/leftmost-column-with-at-least-a-one
+// Reference: https://leetcode.com/problems/leftmost-column-with-at-least-a-one
 class LeftmostColumnWithAtLeastOne {
     fun leftMostColumnWithOne(binaryMatrix: BinaryMatrix): Int {
         val rows = binaryMatrix.dimensions()[0]

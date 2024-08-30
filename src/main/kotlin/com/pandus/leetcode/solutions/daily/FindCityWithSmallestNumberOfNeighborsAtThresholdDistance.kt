@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.*
 
-
-//Reference: https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance
+// Reference: https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance
 class FindCityWithSmallestNumberOfNeighborsAtThresholdDistance {
     fun findTheCity(n: Int, edges: Array<IntArray>, distanceThreshold: Int): Int {
         val adjacencyList = Array(n) { mutableListOf<IntArray>() }
@@ -85,5 +84,4 @@ class FindCityWithSmallestNumberOfNeighborsAtThresholdDistance {
         }
         return cityWithFewestReachable
     }
-
 }

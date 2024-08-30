@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.ListNode
 
-//Reference: https://leetcode.com/problems/merge-nodes-in-between-zeros
+// Reference: https://leetcode.com/problems/merge-nodes-in-between-zeros
 class MergeNodesInBetweenZeros {
     fun mergeNodes(head: ListNode): ListNode? {
         var modify = head.next

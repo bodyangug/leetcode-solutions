@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/rearrange-array-elements-by-sign
+// Reference: https://leetcode.com/problems/rearrange-array-elements-by-sign
 class RearrangeArrayElementsBySign {
     fun rearrangeArray(nums: IntArray): IntArray {
         val ans = IntArray(nums.size)

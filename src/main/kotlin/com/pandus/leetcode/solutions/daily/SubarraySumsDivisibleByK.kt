@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/subarray-sums-divisible-by-k
+// Reference: https://leetcode.com/problems/subarray-sums-divisible-by-k
 class SubarraySumsDivisibleByK {
     fun subarraysDivByK(nums: IntArray, k: Int): Int {
         var prefixMod = 0

@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-//Reference: https://leetcode.com/problems/delete-leaves-with-a-given-value
+// Reference: https://leetcode.com/problems/delete-leaves-with-a-given-value
 class DeleteLeavesWithGivenValue {
     fun removeLeafNodes(root: TreeNode?, target: Int): TreeNode? {
         // Base case

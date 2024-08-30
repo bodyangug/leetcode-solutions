@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-// Reference: https://leetcode.com/problems/task-scheduler-ii/description/
+// Reference: https://leetcode.com/problems/task-scheduler-ii
 class TaskScheduler2 {
     fun taskSchedulerII(tasks: IntArray, space: Int): Long {
         val map = HashMap<Int, Long>()

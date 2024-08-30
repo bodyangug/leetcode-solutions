@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-//Reference: https://leetcode.com/problems/evaluate-boolean-binary-tree
+// Reference: https://leetcode.com/problems/evaluate-boolean-binary-tree
 class EvaluateBooleanBinaryTree {
     fun evaluateTree(root: TreeNode): Boolean {
         // Handles the case for leaf nodes.

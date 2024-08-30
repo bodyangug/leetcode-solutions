@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference:https://leetcode.com/problems/divide-array-into-arrays-with-max-difference
+// Reference:https://leetcode.com/problems/divide-array-into-arrays-with-max-difference
 class DivideArrayIntoArraysWithMaxDifference {
     fun divideArray(nums: IntArray, k: Int): Array<IntArray> {
         nums.sort()

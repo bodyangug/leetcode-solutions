@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/longest-palindrome
+// Reference: https://leetcode.com/problems/longest-palindrome
 class LongestPalindrome {
     fun longestPalindrome(s: String): Int {
         var oddFreqCharsCount = 0

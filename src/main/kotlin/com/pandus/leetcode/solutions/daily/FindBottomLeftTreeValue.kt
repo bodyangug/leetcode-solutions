@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-
-//Reference: https://leetcode.com/problems/find-bottom-left-tree-value
+// Reference: https://leetcode.com/problems/find-bottom-left-tree-value
 class FindBottomLeftTreeValue {
     private var ans = 0
     private var maxDepth = -1

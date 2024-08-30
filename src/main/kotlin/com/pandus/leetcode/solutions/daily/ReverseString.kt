@@ -1,8 +1,8 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/reverse-string
+// Reference: https://leetcode.com/problems/reverse-string
 class ReverseString {
-    fun reverseString(s: CharArray): Unit {
+    fun reverseString(s: CharArray) {
         s.reverse()
     }
 }

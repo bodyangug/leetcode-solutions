@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/find-common-characters
+// Reference: https://leetcode.com/problems/find-common-characters
 class FindCommonCharacters {
     fun commonChars(words: Array<String>): List<String> {
         val commonCharacterCounts = IntArray(26) { Int.MAX_VALUE }
@@ -24,5 +24,4 @@ class FindCommonCharacters {
 
         return result
     }
-
 }

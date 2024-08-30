@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/house-robber
+// Reference: https://leetcode.com/problems/house-robber
 class HouseRobber {
     fun rob(nums: IntArray): Int {
         val memo = IntArray(nums.size) { -1 }

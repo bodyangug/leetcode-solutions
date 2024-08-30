@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/product-of-array-except-self
+// Reference: https://leetcode.com/problems/product-of-array-except-self
 class ProductArrayExceptSelf {
 
     // O(n^2)

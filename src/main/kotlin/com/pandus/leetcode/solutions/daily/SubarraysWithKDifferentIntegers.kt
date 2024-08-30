@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/subarrays-with-k-different-integers
+// Reference: https://leetcode.com/problems/subarrays-with-k-different-integers
 class SubarraysWithKDifferentIntegers {
     fun subarraysWithKDistinct(nums: IntArray, targetDistinct: Int): Int {
         var distinctCounter = IntArray(nums.size + 1)

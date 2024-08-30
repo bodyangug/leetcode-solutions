@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/maximum-profit-in-job-scheduling
+// Reference: https://leetcode.com/problems/maximum-profit-in-job-scheduling
 class MaximumProfitInJobScheduling {
     var memo = IntArray(50001)
     private fun findNextJob(startTime: IntArray, lastEndingTime: Int): Int {
@@ -26,7 +26,7 @@ class MaximumProfitInJobScheduling {
 
     private fun findMaxProfit(jobs: List<Triple<Int, Int, Int>>, startTime: IntArray): Int {
         for (position in jobs.indices.reversed()) {
-            //Binary search
+            // Binary search
             val nextIndex = findNextJob(startTime, jobs[position].second)
 
             val currentProfit = jobs[position].third + (memo.getOrNull(nextIndex) ?: 0)
@@ -37,9 +37,9 @@ class MaximumProfitInJobScheduling {
 
     fun jobScheduling(startTime: IntArray, endTime: IntArray, profit: IntArray): Int {
         val jobs: List<Triple<Int, Int, Int>> = ArrayList<Triple<Int, Int, Int>>().also { list ->
-            list.addAll(startTime.indices.map {
-                Triple(startTime[it], endTime[it], profit[it])
-            })
+            list.addAll(
+                startTime.indices.map { Triple(startTime[it], endTime[it], profit[it]) }
+            )
         }.sortedBy { it.first }
 
         for (i in startTime.indices) {

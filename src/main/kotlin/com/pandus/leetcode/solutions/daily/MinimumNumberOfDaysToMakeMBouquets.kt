@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets
+// Reference: https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets
 class MinimumNumberOfDaysToMakeMBouquets {
     private fun getNumOfBouquets(bloomDay: IntArray, mid: Int, k: Int): Int {
         var numOfBouquets = 0

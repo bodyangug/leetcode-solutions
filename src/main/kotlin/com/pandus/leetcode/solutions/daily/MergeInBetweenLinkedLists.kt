@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.ListNode
 
-
-//Reference: https://leetcode.com/problems/merge-in-between-linked-lists
+// Reference: https://leetcode.com/problems/merge-in-between-linked-lists
 class MergeInBetweenLinkedLists {
     fun mergeInBetween(list1: ListNode?, a: Int, b: Int, list2: ListNode?): ListNode? {
         var start: ListNode? = null

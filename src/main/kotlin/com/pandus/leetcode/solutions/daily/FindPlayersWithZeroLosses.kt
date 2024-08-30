@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/find-players-with-zero-or-one-losses
+// Reference: https://leetcode.com/problems/find-players-with-zero-or-one-losses
 class FindPlayersWithZeroLosses {
     fun findWinners(matches: Array<IntArray>): List<List<Int>> {
         val lossesCount: MutableMap<Int, Int> = HashMap()

@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-
-//Reference: https://leetcode.com/problems/sum-root-to-leaf-numbers
+// Reference: https://leetcode.com/problems/sum-root-to-leaf-numbers
 class SumRootToLeafNumbers {
 
     private var rootLeaf = 0

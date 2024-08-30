@@ -2,19 +2,18 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.abs
 
-
-//Reference: https://leetcode.com/problems/longest-ideal-subsequence
+// Reference: https://leetcode.com/problems/longest-ideal-subsequence
 class LongestIdealSubsequence {
     fun longestIdealString(s: String, k: Int): Int {
-        val N = s.length
+        val n = s.length
 
         // Initialize all dp values to -1 to indicate non-visited states
-        val dp = Array(N) { IntArray(26) { -1 } }
+        val dp = Array(n) { IntArray(26) { -1 } }
 
         // Find the maximum dp[N-1][c] and return the result
         var res = 0
-        (0..25).forEach { c ->
-            res = maxOf(res, dfs(N - 1, c, dp, s, k))
+        for (i in 0..25) {
+            res = maxOf(res, dfs(n - 1, i, dp, s, k))
         }
         return res
     }
@@ -36,7 +35,7 @@ class LongestIdealSubsequence {
         if (i > 0) {
             dp[i][c] = dfs(i - 1, c, dp, s, k)
             if (match) {
-                (0..25).forEach { p ->
+                for (p in 0..25) {
                     if (abs(c - p) <= k) {
                         dp[i][c] = maxOf(dp[i][c], dfs(i - 1, p, dp, s, k) + 1)
                     }

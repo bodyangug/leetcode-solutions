@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/sort-the-jumbled-numbers
+// Reference: https://leetcode.com/problems/sort-the-jumbled-numbers
 class SortTheJumbledNumbers {
     fun sortJumbled(mapping: IntArray, nums: IntArray): IntArray {
         val storePairs = nums.mapIndexed { index, num ->

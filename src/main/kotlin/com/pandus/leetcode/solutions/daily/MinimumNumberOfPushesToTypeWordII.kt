@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii
+// Reference: https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii
 class MinimumNumberOfPushesToTypeWordII {
     fun minimumPushes(word: String): Int {
         val frequency = IntArray(26).apply {

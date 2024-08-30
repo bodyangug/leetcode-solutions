@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/most-profit-assigning-work
+// Reference: https://leetcode.com/problems/most-profit-assigning-work
 class MostProfitAssigningWork {
     fun maxProfitAssignment(
         difficulty: IntArray,

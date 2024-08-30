@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/compare-version-numbers
+// Reference: https://leetcode.com/problems/compare-version-numbers
 class CompareVersionNumbers {
     fun compareVersion(version1: String, version2: String): Int {
         val nums1 = version1.split("\\.".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()

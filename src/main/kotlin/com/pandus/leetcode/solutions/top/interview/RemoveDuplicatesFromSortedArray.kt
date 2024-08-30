@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.top.interview
 
-//Reference: https://leetcode.com/problems/remove-duplicates-from-sorted-array
+// Reference: https://leetcode.com/problems/remove-duplicates-from-sorted-array
 class RemoveDuplicatesFromSortedArray {
     fun removeDuplicates(nums: IntArray): Int {
         var s = 0

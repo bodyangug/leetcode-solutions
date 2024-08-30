@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty
+// Reference: https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty
 class MinimumNumberOfOperationsToMakeArrayEmpty {
     fun minOperations(nums: IntArray): Int {
         val linkMap = nums.withIndex().groupBy({ it.value }, { it.index }).toMutableMap()

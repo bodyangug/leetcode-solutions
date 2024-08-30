@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/magic-squares-in-grid
+// Reference: https://leetcode.com/problems/magic-squares-in-grid
 class MagicSquaresInGrid {
     fun numMagicSquaresInside(grid: Array<IntArray>): Int {
         var ans = 0
@@ -32,9 +32,8 @@ class MagicSquaresInGrid {
         }
 
         val borderConverted = border.toString()
-        return (grid[row][col] % 2 == 0 &&
-                (sequence.contains(borderConverted) ||
-                        sequenceReversed.contains(borderConverted)) && grid[row + 1][col + 1] == 5
-                )
+        return grid[row][col] % 2 == 0 &&
+                (sequence.contains(borderConverted) || sequenceReversed.contains(borderConverted)) &&
+                grid[row + 1][col + 1] == 5
     }
 }

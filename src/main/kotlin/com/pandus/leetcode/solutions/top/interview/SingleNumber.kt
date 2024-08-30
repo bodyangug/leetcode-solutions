@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.top.interview
 
-
-//Reference: https://leetcode.com/problems/single-number
+// Reference: https://leetcode.com/problems/single-number
 class SingleNumber {
     fun singleNumber(nums: IntArray): Int {
         val frequencyMap = HashMap<Int, Int>()
@@ -14,8 +13,6 @@ class SingleNumber {
                 return num
             }
         }
-
         return -1
     }
-
 }

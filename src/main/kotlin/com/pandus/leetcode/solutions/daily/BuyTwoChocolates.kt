@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/buy-two-chocolates
+// Reference: https://leetcode.com/problems/buy-two-chocolates
 class BuyTwoChocolates {
     fun buyChoco(prices: IntArray, money: Int): Int {
         val resultList = ArrayList<Pair<Int, Int>>()

@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.Stack
 
-
-//Reference: https://leetcode.com/problems/valid-parenthesis-string
+// Reference: https://leetcode.com/problems/valid-parenthesis-string
 class ValidParenthesisString {
     fun checkValidString(s: String): Boolean {
         val openBrackets = Stack<Int>()
@@ -31,6 +30,5 @@ class ValidParenthesisString {
             }
         }
         return openBrackets.isEmpty()
-
     }
 }

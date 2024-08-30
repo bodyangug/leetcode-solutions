@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/k-inverse-pairs-array
+// Reference: https://leetcode.com/problems/k-inverse-pairs-array
 class KInversePairsArray {
     private val memo = Array(1001) { arrayOfNulls<Int?>(1001) }
 

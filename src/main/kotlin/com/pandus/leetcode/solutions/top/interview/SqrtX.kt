@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.top.interview
 
 import kotlin.math.abs
 
-//Reference: https://leetcode.com/problems/sqrtx/
+// Reference: https://leetcode.com/problems/sqrtx/
 class SqrtX {
     fun mySqrt(x: Int): Int {
         var t = x.toDouble()

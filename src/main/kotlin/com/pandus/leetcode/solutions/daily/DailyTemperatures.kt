@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/daily-temperatures
+// Reference: https://leetcode.com/problems/daily-temperatures
 class DailyTemperatures {
     fun dailyTemperatures(temperatures: IntArray): IntArray {
         val result = IntArray(temperatures.size)

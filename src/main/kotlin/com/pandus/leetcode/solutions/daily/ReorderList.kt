@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.ListNode
 
-//Reference:https://leetcode.com/problems/reorder-list
+// Reference:https://leetcode.com/problems/reorder-list
 class ReorderList {
     fun reorderList(head: ListNode?) {
         if (head == null) return

@@ -3,8 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import java.lang.Integer.max
 import java.lang.Integer.min
 
-
-//Reference: https://leetcode.com/problems/insert-interval
+// Reference: https://leetcode.com/problems/insert-interval
 class InsertInterval {
 
     fun insert(intervals: Array<IntArray>, newInterval: IntArray): Array<IntArray> {

@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.sqrt
 
-//Reference: https://leetcode.com/problems/sum-of-square-numbers
+// Reference: https://leetcode.com/problems/sum-of-square-numbers
 class SumOfSquareNumbers {
     fun judgeSquareSum(c: Int): Boolean {
         var a = 0L

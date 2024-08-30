@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.LinkedList
 
-
-//Reference: https://leetcode.com/problems/remove-k-digits
+// Reference: https://leetcode.com/problems/remove-k-digits
 class RemoveKDigits {
     fun removeKdigits(num: String, k: Int): String {
         var k = k

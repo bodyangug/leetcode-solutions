@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/find-the-town-judge
+// Reference: https://leetcode.com/problems/find-the-town-judge
 class FindTheTownJudge {
     fun findJudge(n: Int, trust: Array<IntArray>): Int {
         if (trust.size < n - 1) {
@@ -14,9 +13,9 @@ class FindTheTownJudge {
             trustScores[relation[1]]++
         }
 
-        (1..n).forEach {
-            if (trustScores[it] == n - 1) {
-                return it
+        for (i in 1..n) {
+            if (trustScores[i] == n - 1) {
+                return i
             }
         }
         return -1

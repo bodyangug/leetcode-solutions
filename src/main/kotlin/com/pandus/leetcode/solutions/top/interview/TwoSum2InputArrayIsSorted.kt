@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.top.interview
 
-//Reference
+// Reference: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
 class TwoSum2InputArrayIsSorted {
     fun twoSum(numbers: IntArray, target: Int): IntArray {
         var left = 0

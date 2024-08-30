@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/count-elements-with-maximum-frequency
+// Reference: https://leetcode.com/problems/count-elements-with-maximum-frequency
 class CountElementsWithMaximumFrequency {
     fun maxFrequencyElements(nums: IntArray): Int {
         val freqMap = LinkedHashMap<Int, Int>().apply {

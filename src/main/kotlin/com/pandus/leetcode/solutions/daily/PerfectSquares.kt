@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/perfect-squares
+// Reference: https://leetcode.com/problems/perfect-squares
 class PerfectSquares {
     fun numSquares(n: Int): Int {
         val dp = IntArray(n + 1) { Int.MAX_VALUE }

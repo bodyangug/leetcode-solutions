@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/maximum-number-of-points-with-cost
+// Reference: https://leetcode.com/problems/maximum-number-of-points-with-cost
 class MaximumNumberOfPointsWithCost {
     fun maxPoints(points: Array<IntArray>): Long {
         val n = points[0].size

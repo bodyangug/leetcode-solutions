@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/greatest-common-divisor-traversal
+// Reference: https://leetcode.com/problems/greatest-common-divisor-traversal
 class GreatestCommonDivisorTraversal {
     fun canTraverseAllPairs(nums: IntArray): Boolean {
         if (nums.size == 1) return true
@@ -21,11 +21,19 @@ class GreatestCommonDivisorTraversal {
         nums.forEachIndexed { i, n ->
             var n = n
             if (n == 1) return false
-            (2..n).takeWhile { it * it <= n }.forEach { d ->
+            var d = 2
+            while (d * d <= n) {
                 if (n % d == 0) {
-                    if (mp.contains(d)) merge(i, mp[d]!!) else mp[d] = i
-                    while (n % d == 0) n /= d
+                    if (mp.contains(d)) {
+                        merge(i, mp[d]!!)
+                    } else {
+                        mp[d] = i
+                    }
+                    while (n % d == 0) {
+                        n /= d
+                    }
                 }
+                d++
             }
             if (n > 1) if (mp.contains(n)) merge(i, mp[n]!!) else mp[n] = i
         }

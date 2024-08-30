@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.LinkedList
 
-//Reference: https://leetcode.com/problems/number-of-islands
+// Reference: https://leetcode.com/problems/number-of-islands
 class NumberOfIslands {
 
     private val directions = arrayOf(

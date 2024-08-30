@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/lucky-numbers-in-a-matrix
+// Reference: https://leetcode.com/problems/lucky-numbers-in-a-matrix
 class LuckyNumbersInMatrix {
 
     fun luckyNumbers(matrix: Array<IntArray>): List<Int> {

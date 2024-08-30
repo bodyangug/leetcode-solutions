@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.*
 
-//Reference:https://leetcode.com/problems/minimum-cost-to-convert-string-i
+// Reference:https://leetcode.com/problems/minimum-cost-to-convert-string-i
 class MinimumCostToConvertStringI {
     fun minimumCost(
         source: String,
@@ -76,5 +76,4 @@ class MinimumCostToConvertStringI {
         // Return the array of minimum conversion costs from the starting character to all others
         return minCosts
     }
-
 }

@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/strange-printer
+// Reference: https://leetcode.com/problems/strange-printer
 class StrangePrinter {
     fun strangePrinter(s: String): Int {
         if (s.isEmpty()) return 0

@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/largest-local-values-in-a-matrix
+// Reference: https://leetcode.com/problems/largest-local-values-in-a-matrix
 class LargestLocalValuesInMatrix {
     private fun findMax(grid: Array<IntArray>, x: Int, y: Int): Int {
         var maxElement = 0
@@ -15,10 +15,10 @@ class LargestLocalValuesInMatrix {
     }
 
     fun largestLocal(grid: Array<IntArray>): Array<IntArray> {
-        val N = grid.size
-        val maxLocal = Array(N - 2) { IntArray(N - 2) }
-        for (i in 0 until N - 2) {
-            for (j in 0 until N - 2) {
+        val n = grid.size
+        val maxLocal = Array(n - 2) { IntArray(n - 2) }
+        for (i in 0 until n - 2) {
+            for (j in 0 until n - 2) {
                 maxLocal[i][j] = findMax(grid, i, j)
             }
         }

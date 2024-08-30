@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/number-of-students-unable-to-eat-lunch
+// Reference: https://leetcode.com/problems/number-of-students-unable-to-eat-lunch
 class NumberOfStudentsUnableToEatLunch {
     fun countStudents(students: IntArray, sandwiches: IntArray): Int {
         var countPreferSquare = 0

@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.ListNode
 
-//Reference: https://leetcode.com/problems/remove-nodes-from-linked-list
+// Reference: https://leetcode.com/problems/remove-nodes-from-linked-list
 class RemoveNodesFromLinkedList {
     fun removeNodes(head: ListNode?): ListNode? {
         if (head?.next == null) {

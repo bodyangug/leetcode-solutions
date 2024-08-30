@@ -3,7 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import com.pandus.leetcode.solutions.model.ListNode
 import java.util.Stack
 
-//Reference: https://leetcode.com/problems/double-a-number-represented-as-a-linked-list
+// Reference: https://leetcode.com/problems/double-a-number-represented-as-a-linked-list
 class DoubleNumberRepresentedAsLinkedList {
     fun doubleIt(head: ListNode?): ListNode? {
         var head = head

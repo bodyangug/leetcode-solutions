@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/find-all-duplicates-in-an-array
+// Reference: https://leetcode.com/problems/find-all-duplicates-in-an-array
 class FindAllDuplicatesInArray {
     fun findDuplicates(nums: IntArray): List<Int> {
         val freqMap = LinkedHashMap<Int, Int>().apply {

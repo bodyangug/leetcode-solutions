@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference:https://leetcode.com/problems/custom-sort-string
+// Reference:https://leetcode.com/problems/custom-sort-string
 class CustomSortString {
     fun customSortString(order: String, s: String): String {
         val freq: MutableMap<Char, Int> = HashMap()

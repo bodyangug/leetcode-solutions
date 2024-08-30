@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/replace-words
+// Reference: https://leetcode.com/problems/replace-words
 class ReplaceWords {
     fun replaceWords(dictionary: List<String>, sentence: String): String {
         val dictSet = dictionary.toSet()

@@ -3,8 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import java.util.LinkedList
 import java.util.Queue
 
-
-//Reference:https://leetcode.com/problems/reveal-cards-in-increasing-order
+// Reference:https://leetcode.com/problems/reveal-cards-in-increasing-order
 class RevealCardsInIncreasingOrder {
     fun deckRevealedIncreasing(deck: IntArray): IntArray {
         val queue: Queue<Int> = LinkedList()

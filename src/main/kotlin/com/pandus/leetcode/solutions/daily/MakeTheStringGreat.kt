@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.abs
 
-//Reference: https://leetcode.com/problems/make-the-string-great
+// Reference: https://leetcode.com/problems/make-the-string-great
 class MakeTheStringGreat {
     fun makeGood(s: String): String {
         for (i in 0 until s.length - 1) {

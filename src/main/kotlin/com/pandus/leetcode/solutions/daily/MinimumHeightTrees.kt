@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/minimum-height-trees
+// Reference: https://leetcode.com/problems/minimum-height-trees
 class MinimumHeightTrees {
     fun findMinHeightTrees(n: Int, edges: Array<IntArray>): List<Int> {
         if (n < 2) {

@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/count-number-of-teams
+// Reference: https://leetcode.com/problems/count-number-of-teams
 class CountNumberOfTeams {
     fun numTeams(rating: IntArray): Int {
         val n: Int = rating.size

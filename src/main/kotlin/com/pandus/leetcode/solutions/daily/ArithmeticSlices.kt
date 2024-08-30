@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/arithmetic-slices
+// Reference: https://leetcode.com/problems/arithmetic-slices
 class ArithmeticSlices {
     fun numberOfArithmeticSlices(nums: IntArray): Int {
         var maxSize = 0

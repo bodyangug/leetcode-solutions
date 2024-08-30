@@ -1,8 +1,7 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/longest-common-subsequence
+// Reference: https://leetcode.com/problems/longest-common-subsequence
 class LongestCommonSubsequence {
-
     fun longestCommonSubsequence(str1: String, str2: String): Int {
         val dp = Array(str1.length + 1) { IntArray(str2.length + 1) }
 

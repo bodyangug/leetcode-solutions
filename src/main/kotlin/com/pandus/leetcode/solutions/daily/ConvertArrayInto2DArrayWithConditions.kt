@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/
+// Reference: https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/
 class ConvertArrayInto2DArrayWithConditions {
     fun findMatrix(nums: IntArray): List<List<Int>> {
         val freqMap = LinkedHashMap<Int, Int>()

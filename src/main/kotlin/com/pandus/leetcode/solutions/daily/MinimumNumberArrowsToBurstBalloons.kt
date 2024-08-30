@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons
+// Reference: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons
 class MinimumNumberArrowsToBurstBalloons {
     fun findMinArrowShots(points: Array<IntArray>): Int {
         if (points.isEmpty()) return 0

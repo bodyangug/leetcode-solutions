@@ -2,10 +2,9 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.*
 
-
-//Reference: https://leetcode.com/problems/student-attendance-record-ii
+// Reference: https://leetcode.com/problems/student-attendance-record-ii
 class StudentAttendanceRecordII {
-    private val MOD = 1000000007
+    private val mod = 1000000007
     private lateinit var memo: Array<Array<IntArray>>
 
     // Recursive function to return the count of combinations of length 'n' eligible for the award.
@@ -25,11 +24,11 @@ class StudentAttendanceRecordII {
         }
         var count = 0
         // We choose 'P' for the current position.
-        count = eligibleCombinations(n - 1, totalAbsences, 0) % MOD
+        count = eligibleCombinations(n - 1, totalAbsences, 0) % mod
         // We choose 'A' for the current position.
-        count = (count + eligibleCombinations(n - 1, totalAbsences + 1, 0)) % MOD
+        count = (count + eligibleCombinations(n - 1, totalAbsences + 1, 0)) % mod
         // We choose 'L' for the current position.
-        count = (count + eligibleCombinations(n - 1, totalAbsences, consecutiveLates + 1)) % MOD
+        count = (count + eligibleCombinations(n - 1, totalAbsences, consecutiveLates + 1)) % mod
 
         // Return and store the current sub-problem result in the cache.
         return count.also { memo[n][totalAbsences][consecutiveLates] = it }

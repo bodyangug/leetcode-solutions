@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.min
 
-//Reference: https://leetcode.com/problems/minimum-deletions-to-make-string-balanced
+// Reference: https://leetcode.com/problems/minimum-deletions-to-make-string-balanced
 class MinimumDeletionsToMakeStringBalanced {
     fun minimumDeletions(s: String): Int {
         val n = s.length

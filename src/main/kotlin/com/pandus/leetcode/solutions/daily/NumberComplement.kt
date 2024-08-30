@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/number-complement
+// Reference: https://leetcode.com/problems/number-complement
 class NumberComplement {
     fun findComplement(num: Int): Int {
         val bitLength = Integer.toBinaryString(num).length

@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.google
 
-//Reference: https://leetcode.com/problems/unique-email-addresses
+// Reference: https://leetcode.com/problems/unique-email-addresses
 class UniqueEmailAddresses {
     fun numUniqueEmails(emails: Array<String>): Int {
         val ans = HashSet<String>()
@@ -14,7 +14,7 @@ class UniqueEmailAddresses {
         val charArray = this.toCharArray()
         val sb = StringBuilder()
         var plusSign = false
-        //Clean-up local name
+        // Clean-up local name
         for (char in charArray) {
             if (char == '@') {
                 sb.append(char)
@@ -28,7 +28,7 @@ class UniqueEmailAddresses {
             if (char == '.') continue
             sb.append(char)
         }
-        //Get domain name
+        // Get domain name
         for (idx in charArray.indices.reversed()) {
             if (charArray[idx] == '@') break
             sb.append(charArray[idx])

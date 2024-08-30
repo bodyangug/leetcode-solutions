@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/word-search
+// Reference: https://leetcode.com/problems/word-search
 class WordSearch {
     private lateinit var board: Array<CharArray>
     private val rowOffsets = intArrayOf(-1, 0, 1, 0)

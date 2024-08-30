@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.top.interview
 
-//Reference: https://leetcode.com/problems/remove-element
+// Reference: https://leetcode.com/problems/remove-element
 class RemoveElement {
     fun removeElement(nums: IntArray, `val`: Int): Int {
         var firstPointer = 0

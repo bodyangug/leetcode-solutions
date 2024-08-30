@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-//Reference: https://leetcode.com/problems/maximum-difference-between-node-and-ancestor
+// Reference: https://leetcode.com/problems/maximum-difference-between-node-and-ancestor
 class MaximumDifferenceBetweenNodeAndAncestor {
 
     fun maxAncestorDiff(root: TreeNode?): Int {

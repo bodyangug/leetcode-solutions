@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.ListNode
 
-
-//Reference: https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list
+// Reference: https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list
 class RemoveZeroSumConsecutiveNodesFromLinkedList {
     fun removeZeroSumSublists(head: ListNode?): ListNode? {
         val front = ListNode(0, head)

@@ -2,12 +2,16 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.min
 
-//Reference: https://leetcode.com/problems/modify-graph-edge-weights
+// Reference: https://leetcode.com/problems/modify-graph-edge-weights
 class ModifyGraphEdgeWeights {
-    private val INF: Int = 2e9.toInt()
+    private val inf: Int = 2e9.toInt()
 
     fun modifiedGraphEdges(
-        n: Int, edges: Array<IntArray>, source: Int, destination: Int, target: Int
+        n: Int,
+        edges: Array<IntArray>,
+        source: Int,
+        destination: Int,
+        target: Int
     ): Array<IntArray> {
         val currentShortestDistance = runDijkstra(edges, n, source, destination)
 
@@ -22,7 +26,7 @@ class ModifyGraphEdgeWeights {
             if (edge[2] > 0) continue
 
             // Set edge weight to a large value if current distance matches target, else set to 1
-            edge[2] = if (matchesTarget) INF else 1
+            edge[2] = if (matchesTarget) inf else 1
 
             // Step 3: If current shortest distance does not match target
             if (!matchesTarget) {
@@ -41,8 +45,8 @@ class ModifyGraphEdgeWeights {
 
     private fun runDijkstra(edges: Array<IntArray>, n: Int, source: Int, destination: Int): Long {
         // Step 1: Initialize adjacency matrix and distance arrays
-        val adjMatrix = Array(n) { LongArray(n) { INF.toLong() } }
-        val minDistance = LongArray(n) { INF.toLong() }
+        val adjMatrix = Array(n) { LongArray(n) { inf.toLong() } }
+        val minDistance = LongArray(n) { inf.toLong() }
         val visited = BooleanArray(n)
 
         // Set the distance to the source node as 0

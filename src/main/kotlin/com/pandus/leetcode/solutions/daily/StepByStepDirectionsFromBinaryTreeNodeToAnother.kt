@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-//Reference: https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another
+// Reference: https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another
 class StepByStepDirectionsFromBinaryTreeNodeToAnother {
     fun getDirections(root: TreeNode?, startValue: Int, destValue: Int): String {
         val lowestCommonAncestor: TreeNode? = findLowestCommonAncestor(root, startValue, destValue)

@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference:https://leetcode.com/problems/minimum-falling-path-sum
+// Reference:https://leetcode.com/problems/minimum-falling-path-sum
 class MinimumFallingPathSum {
     fun minFallingPathSum(matrix: Array<IntArray>): Int {
         val n = matrix.size

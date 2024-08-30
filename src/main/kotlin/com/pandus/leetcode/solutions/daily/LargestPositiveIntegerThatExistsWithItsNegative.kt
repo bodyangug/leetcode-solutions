@@ -3,7 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import kotlin.math.abs
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative
+// Reference: https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative
 class LargestPositiveIntegerThatExistsWithItsNegative {
     fun findMaxK(nums: IntArray): Int {
         var ans = -1

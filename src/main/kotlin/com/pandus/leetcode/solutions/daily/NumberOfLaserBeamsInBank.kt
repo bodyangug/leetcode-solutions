@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/number-of-laser-beams-in-a-bank
+// Reference: https://leetcode.com/problems/number-of-laser-beams-in-a-bank
 class NumberOfLaserBeamsInBank {
     fun numberOfBeams(bank: Array<String>): Int {
         var totalCountBeam = 0

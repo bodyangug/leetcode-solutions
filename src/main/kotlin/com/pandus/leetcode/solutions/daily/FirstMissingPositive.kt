@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/first-missing-positive
+// Reference: https://leetcode.com/problems/first-missing-positive
 class FirstMissingPositive {
     fun firstMissingPositive(nums: IntArray): Int {
         for (i in nums.indices) {
@@ -18,4 +18,3 @@ class FirstMissingPositive {
         return nums.size + 1
     }
 }
-

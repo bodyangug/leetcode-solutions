@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.PriorityQueue
 
-
-//Reference: https://leetcode.com/problems/cheapest-flights-within-k-stops
+// Reference: https://leetcode.com/problems/cheapest-flights-within-k-stops
 class CheapestFlightsWithinKStops {
 
     fun findCheapestPrice(n: Int, flights: Array<IntArray>, src: Int, dst: Int, k: Int): Int {
@@ -18,7 +17,7 @@ class CheapestFlightsWithinKStops {
                 this.offer(intArrayOf(0, src, 0))
             }
 
-        //Dijkstra
+        // Dijkstra
         while (!pq.isEmpty()) {
             val temp = pq.poll()
             val dist = temp[0]
@@ -38,5 +37,4 @@ class CheapestFlightsWithinKStops {
         }
         return -1
     }
-
 }

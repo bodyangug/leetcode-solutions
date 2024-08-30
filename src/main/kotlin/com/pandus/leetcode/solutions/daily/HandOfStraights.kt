@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/hand-of-straights
+// Reference: https://leetcode.com/problems/hand-of-straights
 class HandOfStraights {
     fun isNStraightHand(hand: IntArray, groupSize: Int): Boolean {
         if (hand.size % groupSize != 0) {

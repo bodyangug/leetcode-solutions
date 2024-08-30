@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.top.interview
 
-//Reference: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii
+// Reference: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii
 class RemoveDuplicatesFromSortedArray2 {
     fun removeDuplicates1(nums: IntArray): Int {
         var right = 1
@@ -8,7 +8,7 @@ class RemoveDuplicatesFromSortedArray2 {
         var size = nums.size
         while (right < size) {
             if (nums[right] == nums[right - 1]) {
-                count++;
+                count++
                 if (count > 2) {
                     removeEl(nums, right)
                     size--

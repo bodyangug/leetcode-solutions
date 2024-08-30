@@ -3,7 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import com.pandus.leetcode.solutions.model.ListNode
 import java.lang.Integer.min
 
-//Reference: https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points
+// Reference: https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points
 class FindMinimumAndMaximumNumberOfNodesBetweenCriticalPoints {
     fun nodesBetweenCriticalPoints(head: ListNode): IntArray {
         var result = intArrayOf(-1, -1)

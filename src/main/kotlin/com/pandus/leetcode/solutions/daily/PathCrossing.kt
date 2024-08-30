@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/path-crossing
+// Reference: https://leetcode.com/problems/path-crossing
 class PathCrossing {
     fun isPathCrossing(path: String): Boolean {
         val visitedPoints = mutableSetOf(Pair(0, 0))

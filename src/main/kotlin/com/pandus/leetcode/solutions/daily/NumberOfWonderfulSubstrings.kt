@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/number-of-wonderful-substrings
+// Reference: https://leetcode.com/problems/number-of-wonderful-substrings
 class NumberOfWonderfulSubstrings {
     fun wonderfulSubstrings(word: String): Long {
         val freq = mutableMapOf<Int, Int>().withDefault { 0 }

@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/find-if-path-exists-in-graph
+// Reference: https://leetcode.com/problems/find-if-path-exists-in-graph
 class FindIfPathExistsInGraph {
     fun validPath(
         n: Int,

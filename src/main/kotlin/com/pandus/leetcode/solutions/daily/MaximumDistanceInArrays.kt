@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.abs
 
-//Reference: https://leetcode.com/problems/maximum-distance-in-arrays
+// Reference: https://leetcode.com/problems/maximum-distance-in-arrays
 class MaximumDistanceInArrays {
     fun maxDistance(arrays: List<List<Int>>): Int {
         var maxDist = 0

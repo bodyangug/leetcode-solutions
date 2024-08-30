@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.abs
 
-//Reference: https://leetcode.com/problems/find-k-th-smallest-pair-distance
+// Reference: https://leetcode.com/problems/find-k-th-smallest-pair-distance
 class FindKthSmallestPairDistance {
     fun smallestDistancePair(nums: IntArray, k: Int): Int {
         var k = k

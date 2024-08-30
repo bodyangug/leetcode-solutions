@@ -3,8 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import java.util.LinkedList
 import java.util.Queue
 
-
-//Reference: https://leetcode.com/problems/find-the-safest-path-in-a-grid
+// Reference: https://leetcode.com/problems/find-the-safest-path-in-a-grid
 class FindTheSafestPathInGrid {
 
     private val directions = arrayOf(

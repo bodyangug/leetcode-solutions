@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Refers: https://leetcode.com/problems/palindromic-substrings/description/?envType=daily-question&envId=2024-02-10
+// Reference: https://leetcode.com/problems/palindromic-substrings
 class PalindromicSubstring {
     fun countSubstrings(s: String): Int {
         val n = s.length

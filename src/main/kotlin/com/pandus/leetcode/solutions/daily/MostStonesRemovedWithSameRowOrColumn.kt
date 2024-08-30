@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/most-stones-removed-with-same-row-or-column
+// Reference: https://leetcode.com/problems/most-stones-removed-with-same-row-or-column
 class MostStonesRemovedWithSameRowOrColumn {
     fun removeStones(stones: Array<IntArray>): Int {
         val n = stones.size

@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.top.interview
 
 import com.pandus.leetcode.solutions.model.ListNode
 
-//Reference: https://leetcode.com/problems/add-two-numbers/
+// Reference: https://leetcode.com/problems/add-two-numbers/
 class AddTwoNumbers {
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         var tail: ListNode? = null
@@ -13,7 +13,6 @@ class AddTwoNumbers {
 
         var carry = 0 // 1 or 0
         while (topNode != null || bottomNode != null || carry != 0) {
-
             val top = topNode?.`val` ?: 0
             val bottom = bottomNode?.`val` ?: 0
 

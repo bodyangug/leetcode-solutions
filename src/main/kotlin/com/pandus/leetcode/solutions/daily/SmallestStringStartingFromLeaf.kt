@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-//Reference: https://leetcode.com/problems/smallest-string-starting-from-leaf
+// Reference: https://leetcode.com/problems/smallest-string-starting-from-leaf
 class SmallestStringStartingFromLeaf {
 
     private var smallestString = ""
@@ -26,4 +26,3 @@ class SmallestStringStartingFromLeaf {
         }
     }
 }
-

@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.weekly
 
 import kotlin.math.max
 
-
-//Reference: https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters
+// Reference: https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters
 class LongestSubstringWithAtMostKDistinctCharacters {
     fun lengthOfLongestSubstringKDistinct(s: String, k: Int): Int {
         val n = s.length

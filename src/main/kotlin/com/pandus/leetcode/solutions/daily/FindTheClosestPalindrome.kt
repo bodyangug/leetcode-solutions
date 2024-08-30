@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.abs
 
-//Reference:https://leetcode.com/problems/find-the-closest-palindrome
+// Reference:https://leetcode.com/problems/find-the-closest-palindrome
 class FindTheClosestPalindrome {
     // Convert to palindrome keeping first half constant.
     private fun convert(num: Long): Long {

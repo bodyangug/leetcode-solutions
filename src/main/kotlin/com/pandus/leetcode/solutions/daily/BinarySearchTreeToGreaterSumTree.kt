@@ -3,8 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import com.pandus.leetcode.solutions.model.TreeNode
 import java.util.*
 
-
-//Reference: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree
+// Reference: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree
 class BinarySearchTreeToGreaterSumTree {
     fun bstToGst(root: TreeNode?): TreeNode? {
         // Store the inorder traversal in an array.

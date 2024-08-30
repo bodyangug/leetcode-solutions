@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/minimum-time-to-make-rope-colorful
+// Reference: https://leetcode.com/problems/minimum-time-to-make-rope-colorful
 class MinimumTimeToMakeRopeColorful {
     fun minCost(colors: String, neededTime: IntArray): Int {
         var totalMinSum = 0

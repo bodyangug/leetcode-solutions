@@ -3,7 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import java.lang.Integer.max
 import java.lang.Integer.min
 
-//Reference: https://leetcode.com/problems/filling-bookcase-shelves
+// Reference: https://leetcode.com/problems/filling-bookcase-shelves
 class FillingBookcaseShelves {
     fun minHeightShelves(books: Array<IntArray>, shelfWidth: Int): Int {
         val dp = IntArray(books.size + 1)

@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/subsets
+// Reference: https://leetcode.com/problems/subsets
 class Subsets {
     fun subsets(nums: IntArray): List<List<Int>> {
         val output: MutableList<MutableList<Int>> = ArrayList()

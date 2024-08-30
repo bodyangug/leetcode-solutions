@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.min
 
-//Reference: https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii
+// Reference: https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii
 class MinimumSwapsToGroupAll1sTogetherII {
     fun minSwaps(nums: IntArray): Int {
         var minimumSwaps = Int.MAX_VALUE

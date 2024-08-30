@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/k-th-smallest-prime-fraction
+// Reference: https://leetcode.com/problems/k-th-smallest-prime-fraction
 class KthSmallestPrimeFraction {
     fun kthSmallestPrimeFraction(arr: IntArray, k: Int): IntArray {
         val n = arr.size

@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/integer-to-english-words
+// Reference: https://leetcode.com/problems/integer-to-english-words
 class IntegerToEnglishWords {
     private val belowTen = arrayOf("", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine")
     private val belowTwenty = arrayOf(

@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/sort-array-by-increasing-frequency
+// Reference: https://leetcode.com/problems/sort-array-by-increasing-frequency
 class SortArrayByIncreasingFrequency {
     fun frequencySort(nums: IntArray): IntArray {
         val frequencyMap = mutableMapOf<Int, Int>().apply {

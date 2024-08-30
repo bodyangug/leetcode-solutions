@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/find-the-duplicate-number
+// Reference: https://leetcode.com/problems/find-the-duplicate-number
 class FindDuplicateNumber {
     fun findDuplicate(nums: IntArray): Int {
         nums.sort()

@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/meeting-rooms-iii
+// Reference: https://leetcode.com/problems/meeting-rooms-iii
 class MeetingRooms3 {
     fun mostBooked(n: Int, meetings: Array<IntArray>): Int {
         val roomAvailabilityTime = LongArray(n)

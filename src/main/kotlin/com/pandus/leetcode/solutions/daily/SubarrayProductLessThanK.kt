@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/subarray-product-less-than-k
+// Reference: https://leetcode.com/problems/subarray-product-less-than-k
 class SubarrayProductLessThanK {
     fun numSubarrayProductLessThanK(nums: IntArray, k: Int): Int {
         if (k <= 1) return 0

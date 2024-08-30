@@ -3,7 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import com.pandus.leetcode.solutions.model.TreeNode
 import kotlin.math.abs
 
-//Reference: https://leetcode.com/problems/distribute-coins-in-binary-tree
+// Reference: https://leetcode.com/problems/distribute-coins-in-binary-tree
 class DistributeCoinsInBinaryTree {
     private var moves = 0
 

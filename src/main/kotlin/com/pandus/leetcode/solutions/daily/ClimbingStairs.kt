@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/climbing-stairs
+// Reference: https://leetcode.com/problems/climbing-stairs
 class ClimbingStairs {
 
     fun climbStairs(n: Int): Int {

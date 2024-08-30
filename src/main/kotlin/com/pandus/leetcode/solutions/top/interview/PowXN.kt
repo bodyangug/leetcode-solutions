@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.top.interview
 
-//Reference: https://leetcode.com/problems/powx-n
+// Reference: https://leetcode.com/problems/powx-n
 class PowXN {
 
     private fun binaryExp(x: Double, n: Long): Double {

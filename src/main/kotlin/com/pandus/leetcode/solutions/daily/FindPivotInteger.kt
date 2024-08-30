@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/find-the-pivot-integer
+// Reference: https://leetcode.com/problems/find-the-pivot-integer
 class FindPivotInteger {
     fun pivotInteger(n: Int): Int {
         var sum = n * (n + 1) / 2

@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/binary-subarrays-with-sum
+// Reference: https://leetcode.com/problems/binary-subarrays-with-sum
 class BinarySubarraysWithSum {
     fun numSubarraysWithSum(nums: IntArray, goal: Int): Int {
         var totalCount = 0
@@ -20,4 +19,3 @@ class BinarySubarraysWithSum {
         return totalCount
     }
 }
-

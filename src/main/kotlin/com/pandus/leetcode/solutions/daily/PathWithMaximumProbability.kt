@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/path-with-maximum-probability
+// Reference: https://leetcode.com/problems/path-with-maximum-probability
 class PathWithMaximumProbability {
     fun maxProbability(
         n: Int,

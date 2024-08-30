@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.ListNode
 
-
-//Reference: https://leetcode.com/problems/middle-of-the-linked-list
+// Reference: https://leetcode.com/problems/middle-of-the-linked-list
 class MiddleOfLinkedList {
     fun middleNode(head: ListNode?): ListNode? {
         val temp = arrayOfNulls<ListNode>(100)

@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.top.interview
 
-
-//Reference: https://leetcode.com/problems/reverse-bits
+// Reference: https://leetcode.com/problems/reverse-bits
 class ReverseBits {
     fun reverseBits(n: Int): Int {
         var ans = 0

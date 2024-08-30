@@ -2,7 +2,6 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.max
 
-
 // Reference: https://leetcode.com/problems/find-the-maximum-sum-of-node-values
 class FindMaximumSumOfNodeValues {
     fun maximumValueSum(nums: IntArray, k: Int, edges: Array<IntArray?>?): Long {
@@ -11,7 +10,10 @@ class FindMaximumSumOfNodeValues {
     }
 
     private fun maxSumOfNodes(
-        index: Int, isEven: Int, nums: IntArray, k: Int,
+        index: Int,
+        isEven: Int,
+        nums: IntArray,
+        k: Int,
         memo: Array<LongArray>
     ): Long {
         if (index == nums.size) {
@@ -25,8 +27,7 @@ class FindMaximumSumOfNodeValues {
         // No operation performed on the element
         val noXorDone = nums[index] + maxSumOfNodes(index + 1, isEven, nums, k, memo)
         // XOR operation is performed on the element
-        val xorDone = (nums[index] xor k) +
-                maxSumOfNodes(index + 1, isEven xor 1, nums, k, memo)
+        val xorDone = (nums[index] xor k) + maxSumOfNodes(index + 1, isEven xor 1, nums, k, memo)
         // Memoize and return the result
         return max(xorDone, noXorDone).also { memo[index][isEven] = it }.toLong()
     }

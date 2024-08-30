@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.abs
 
-//Reference: https://leetcode.com/problems/fraction-addition-and-subtraction
+// Reference: https://leetcode.com/problems/fraction-addition-and-subtraction
 class FractionAdditionAndSubtraction {
     fun fractionAddition(expression: String): String {
         var num = 0
@@ -39,7 +39,7 @@ class FractionAdditionAndSubtraction {
             // Combine fractions
             num = num * currDenom + currNum * denom
             denom *= currDenom
-            val gcd = abs(FindGCD(num, denom))
+            val gcd = abs(findGCD(num, denom))
             num /= gcd
             denom /= gcd
         }
@@ -47,7 +47,7 @@ class FractionAdditionAndSubtraction {
         return "$num/$denom"
     }
 
-    private fun FindGCD(a: Int, b: Int): Int {
-        return if (b == 0) a else FindGCD(b, a % b)
+    private fun findGCD(a: Int, b: Int): Int {
+        return if (b == 0) a else findGCD(b, a % b)
     }
 }

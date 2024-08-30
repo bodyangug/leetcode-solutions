@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.ListNode
 
-//Reference: https://leetcode.com/problems/remove-nth-node-from-end-of-list
+// Reference: https://leetcode.com/problems/remove-nth-node-from-end-of-list
 class RemoveNthNodeFromEndList {
     fun removeNthFromEnd(head: ListNode?, n: Int): ListNode? {
         val dummy = ListNode(0)

@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/group-anagrams
+// Reference: https://leetcode.com/problems/group-anagrams
 class GroupAnagrams {
     fun groupAnagrams(strs: Array<String>): List<List<String>> {
         val ans = mutableMapOf<String, MutableList<String>>()
@@ -10,5 +10,4 @@ class GroupAnagrams {
         }
         return ans.values.toList()
     }
-
 }

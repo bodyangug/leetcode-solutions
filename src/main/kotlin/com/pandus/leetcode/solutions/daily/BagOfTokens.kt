@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/bag-of-tokens
+// Reference: https://leetcode.com/problems/bag-of-tokens
 class BagOfTokens {
     fun bagOfTokensScore(tokens: IntArray, power: Int): Int {
         var power = power

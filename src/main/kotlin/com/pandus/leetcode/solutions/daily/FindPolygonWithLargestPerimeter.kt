@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.Arrays
 
-
-//Reference:https://leetcode.com/problems/find-polygon-with-the-largest-perimeter
+// Reference:https://leetcode.com/problems/find-polygon-with-the-largest-perimeter
 class FindPolygonWithLargestPerimeter {
     fun largestPerimeter(nums: IntArray): Long {
         Arrays.sort(nums)

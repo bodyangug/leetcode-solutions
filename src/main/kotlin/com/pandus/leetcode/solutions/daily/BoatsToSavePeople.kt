@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/boats-to-save-people
+// Reference: https://leetcode.com/problems/boats-to-save-people
 class BoatsToSavePeople {
     fun numRescueBoats(people: IntArray, limit: Int): Int {
         people.sort()

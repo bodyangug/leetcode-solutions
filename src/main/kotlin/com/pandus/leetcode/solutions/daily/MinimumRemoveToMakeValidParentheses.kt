@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses
+// Reference: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses
 class MinimumRemoveToMakeValidParentheses {
 
     fun minRemoveToMakeValid(s: String): String {

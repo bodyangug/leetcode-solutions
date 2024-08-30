@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/single-number-iii
+// Reference: https://leetcode.com/problems/single-number-iii
 class SingleNumberIII {
     fun singleNumber(nums: IntArray): IntArray {
         val hashmap: MutableMap<Int, Int> = HashMap()

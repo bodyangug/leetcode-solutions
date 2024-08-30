@@ -3,8 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import java.util.*
 import kotlin.math.ceil
 
-
-//Reference: https://leetcode.com/problems/magnetic-force-between-two-balls
+// Reference: https://leetcode.com/problems/magnetic-force-between-two-balls
 class MagneticForceBetweenTwoBalls {
     // Check if we can place 'm' balls at 'position'
     // with each ball having at least 'x' gap.

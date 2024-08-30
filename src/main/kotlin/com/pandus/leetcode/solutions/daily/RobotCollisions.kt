@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.*
 
-
-//Reference:https://leetcode.com/problems/robot-collisions
+// Reference:https://leetcode.com/problems/robot-collisions
 class RobotCollisions {
     fun survivedRobotsHealths(positions: IntArray, healths: IntArray, directions: String): List<Int> {
         val n = positions.size

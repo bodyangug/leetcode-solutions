@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.top.interview
 
-//Reference: https://leetcode.com/problems/valid-palindrome
+// Reference: https://leetcode.com/problems/valid-palindrome
 class ValidPalindrome {
     fun isPalindrome(s: String): Boolean {
         var left = 0

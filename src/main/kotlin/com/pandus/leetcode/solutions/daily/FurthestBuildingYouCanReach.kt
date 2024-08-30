@@ -3,7 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import java.util.PriorityQueue
 import java.util.Queue
 
-//Reference: https://leetcode.com/problems/furthest-building-you-can-reach
+// Reference: https://leetcode.com/problems/furthest-building-you-can-reach
 class FurthestBuildingYouCanReach {
     fun furthestBuilding(heights: IntArray, bricks: Int, ladders: Int): Int {
         val brickAllocations: Queue<Int> = PriorityQueue { a, b -> b - a }

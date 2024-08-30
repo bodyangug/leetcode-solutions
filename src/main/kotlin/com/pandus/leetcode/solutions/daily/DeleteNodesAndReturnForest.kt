@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-
-//Reference: https://leetcode.com/problems/delete-nodes-and-return-forest
+// Reference: https://leetcode.com/problems/delete-nodes-and-return-forest
 class DeleteNodesAndReturnForest {
     fun delNodes(root: TreeNode?, to_delete: IntArray): List<TreeNode?> {
         var root = root
@@ -49,5 +48,4 @@ class DeleteNodesAndReturnForest {
         }
         return node
     }
-
 }

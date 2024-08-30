@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.max
 
-//Reference:https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency
+// Reference:https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency
 class LengthOfLongestSubarrayWithAtMostKFrequency {
     fun maxSubarrayLength(nums: IntArray, k: Int): Int {
         var ans = 0

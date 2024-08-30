@@ -1,9 +1,9 @@
 package com.pandus.leetcode.solutions.top.interview
 
-//Reference: https://leetcode.com/problems/container-with-most-water
+// Reference: https://leetcode.com/problems/container-with-most-water
 class ContainerWithMostWater {
 
-    //Brute-force solution
+    // Brute-force solution
     fun maxArea1(height: IntArray): Int {
         var maxArea = 0
         for (first in height.indices) {

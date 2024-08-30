@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/minimum-common-value
+// Reference: https://leetcode.com/problems/minimum-common-value
 class MinimumCommonValue {
     fun getCommon(nums1: IntArray, nums2: IntArray): Int {
         val set1: MutableSet<Int> = HashSet()

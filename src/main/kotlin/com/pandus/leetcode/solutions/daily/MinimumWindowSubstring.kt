@@ -1,6 +1,5 @@
 package com.pandus.leetcode.solutions.daily
 
-
 class MinimumWindowSubstring {
     fun minWindow(s: String, t: String): String {
         if (s.isEmpty() || t.isEmpty()) return ""

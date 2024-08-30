@@ -2,11 +2,12 @@ package com.pandus.leetcode.solutions.weekly
 
 import com.pandus.leetcode.solutions.model.ListNode
 
-
-//Reference: https://leetcode.com/problems/linked-list-frequency
+// Reference: https://leetcode.com/problems/linked-list-frequency
 class LinkedListFrequency {
+
+    private val maxValue = 100000
+
     fun frequenciesOfElements(head: ListNode?): ListNode? {
-        val maxValue = 100000 // Maximum element value
         val frequencies = IntArray(maxValue)
         var current = head
 

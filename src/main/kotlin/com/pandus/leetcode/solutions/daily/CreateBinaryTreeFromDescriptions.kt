@@ -2,10 +2,9 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-
-//Reference: https://leetcode.com/problems/create-binary-tree-from-descriptions
+// Reference: https://leetcode.com/problems/create-binary-tree-from-descriptions
 class CreateBinaryTreeFromDescriptions {
-    fun createBinaryTree(descriptions: Array<IntArray>): TreeNode? {
+    fun createBinaryTree(descriptions: Array<IntArray>): TreeNode {
         val parentToChildren: MutableMap<Int, MutableList<IntArray>> = HashMap()
         val allNodes: MutableSet<Int> = HashSet()
         val children: MutableSet<Int> = HashSet()

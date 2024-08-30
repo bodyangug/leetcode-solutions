@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/sort-colors
+// Reference: https://leetcode.com/problems/sort-colors
 class SortColors {
     fun sortColors(nums: IntArray) {
         var p0 = 0

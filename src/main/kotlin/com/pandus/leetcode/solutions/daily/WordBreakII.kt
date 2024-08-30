@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/word-break-ii
+// Reference: https://leetcode.com/problems/word-break-ii
 class WordBreakII {
     fun wordBreak(s: String, wordDict: List<String>): List<String> {
         val wordSet: Set<String> = HashSet(wordDict)

@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.*
 
-
-//Reference: https://leetcode.com/problems/ipo
+// Reference: https://leetcode.com/problems/ipo
 class IPO {
     fun findMaximizedCapital(k: Int, w: Int, profits: IntArray, capital: IntArray): Int {
         var w = w

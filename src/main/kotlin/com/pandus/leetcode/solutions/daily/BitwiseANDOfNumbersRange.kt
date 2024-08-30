@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/bitwise-and-of-numbers-range
+// Reference: https://leetcode.com/problems/bitwise-and-of-numbers-range
 class BitwiseANDOfNumbersRange {
     fun rangeBitwiseAnd(left: Int, right: Int): Int {
         var left = left

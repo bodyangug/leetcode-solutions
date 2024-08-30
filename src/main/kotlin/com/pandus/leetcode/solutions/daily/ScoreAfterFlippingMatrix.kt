@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/score-after-flipping-matrix
+// Reference: https://leetcode.com/problems/score-after-flipping-matrix
 class ScoreAfterFlippingMatrix {
     fun matrixScore(grid: Array<IntArray>): Int {
         val m = grid.size

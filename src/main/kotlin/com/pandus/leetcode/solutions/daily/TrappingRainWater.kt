@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/trapping-rain-water
+// Reference: https://leetcode.com/problems/trapping-rain-water
 class TrappingRainWater {
     fun trap(height: IntArray): Int {
         var ans = 0

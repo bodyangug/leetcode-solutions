@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/determine-if-string-halves-are-alike
+// Reference: https://leetcode.com/problems/determine-if-string-halves-are-alike
 class DetermineIfStringHalvesAreAlike {
     fun halvesAreAlike(s: String): Boolean {
         val vowels = setOf('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')
@@ -14,5 +14,4 @@ class DetermineIfStringHalvesAreAlike {
 
         return vowelCount == 0
     }
-
 }

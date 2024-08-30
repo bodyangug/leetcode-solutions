@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times
+// Reference: https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times
 class CountSubarraysWhereMaxElementAppearsLeastKTimes {
     fun countSubarrays(nums: IntArray, k: Int): Long {
         val maxElement = nums.maxOrNull()

@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.PriorityQueue
 
-//Reference: https://leetcode.com/problems/relative-ranks
+// Reference: https://leetcode.com/problems/relative-ranks
 class RelativeRanks {
     fun findRelativeRanks(score: IntArray): Array<String?> {
         // Create a max heap of pairs (score, index)

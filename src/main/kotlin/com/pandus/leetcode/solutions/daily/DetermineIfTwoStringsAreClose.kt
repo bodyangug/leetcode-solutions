@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/determine-if-two-strings-are-close
+// Reference: https://leetcode.com/problems/determine-if-two-strings-are-close
 class DetermineIfTwoStringsAreClose {
     fun closeStrings(word1: String, word2: String): Boolean {
         if (word1.length != word2.length) {

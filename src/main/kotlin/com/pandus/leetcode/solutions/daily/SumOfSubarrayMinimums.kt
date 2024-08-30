@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/sum-of-subarray-minimums
+// Reference: https://leetcode.com/problems/sum-of-subarray-minimums
 class SumOfSubarrayMinimums {
     fun sumSubarrayMins(arr: IntArray): Int {
         val modulo = 1_000_000_007

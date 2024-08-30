@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/regions-cut-by-slashes
+// Reference: https://leetcode.com/problems/regions-cut-by-slashes
 class RegionsCutBySlashes {
     fun regionsBySlashes(grid: Array<String>): Int {
         val n = grid.size

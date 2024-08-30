@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/power-of-two
+// Reference: https://leetcode.com/problems/power-of-two
 class PowerOfTwo {
     fun isPowerOfTwo(n: Int): Boolean {
         if (n == 0) return false

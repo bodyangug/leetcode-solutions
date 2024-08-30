@@ -3,7 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import java.util.PriorityQueue
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/maximize-happiness-of-selected-children
+// Reference: https://leetcode.com/problems/maximize-happiness-of-selected-children
 class MaximizeHappinessOfSelectedChildren {
     fun maximumHappinessSum(happiness: IntArray, k: Int): Long {
         val pq = PriorityQueue(Comparator.reverseOrder<Int>())

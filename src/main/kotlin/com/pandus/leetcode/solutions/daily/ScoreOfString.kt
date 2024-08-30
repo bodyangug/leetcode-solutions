@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.abs
 
-//Reference: https://leetcode.com/problems/score-of-a-string
+// Reference: https://leetcode.com/problems/score-of-a-string
 class ScoreOfString {
     fun scoreOfString(s: String): Int {
         var score = 0

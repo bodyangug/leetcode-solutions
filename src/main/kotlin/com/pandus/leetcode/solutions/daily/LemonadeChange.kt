@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/lemonade-change
+// Reference: https://leetcode.com/problems/lemonade-change
 class LemonadeChange {
     fun lemonadeChange(bills: IntArray): Boolean {
         var fiveCount = 0

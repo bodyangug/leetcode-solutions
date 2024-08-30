@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-//Reference:https://leetcode.com/problems/leaf-similar-trees
+// Reference:https://leetcode.com/problems/leaf-similar-trees
 class LeafSimilarTree {
     fun leafSimilar(root1: TreeNode?, root2: TreeNode?): Boolean {
         val leave1 = ArrayList<Int>()

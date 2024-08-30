@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/missing-number
+// Reference: https://leetcode.com/problems/missing-number
 class MissingNumber {
     fun missingNumber(nums: IntArray): Int {
         nums.sort()

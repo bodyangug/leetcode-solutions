@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points
+// Reference: https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points
 class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
     fun maxWidthOfVerticalArea(points: Array<IntArray>): Int {
         val sorted = points.map { it.first() }.sorted()

@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.min
 
-
-//Reference: https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves
+// Reference: https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves
 class MinimumDifferenceBetweenLargestAndSmallestValueInThreeMoves {
     fun minDifference(nums: IntArray): Int {
         val numsSize = nums.size

@@ -1,8 +1,9 @@
 package com.pandus.leetcode.solutions.weekly
 
-import kotlin.math.*
+import kotlin.math.abs
+import kotlin.math.min
 
-//Reference: https://leetcode.com/problems/campus-bikes-ii
+// Reference: https://leetcode.com/problems/campus-bikes-ii
 class CampusBikes2 {
     private var visited = BooleanArray(10)
     private var smallestDistanceSum = Int.MAX_VALUE
@@ -30,7 +31,9 @@ class CampusBikes2 {
             if (!visited[bikeIndex]) {
                 visited[bikeIndex] = true
                 minimumDistanceSum(
-                    workers, workerIndex + 1, bikes,
+                    workers,
+                    workerIndex + 1,
+                    bikes,
                     currDistanceSum + findDistance(workers[workerIndex], bikes[bikeIndex])
                 )
                 visited[bikeIndex] = false

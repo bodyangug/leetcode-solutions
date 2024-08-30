@@ -1,8 +1,9 @@
 package com.pandus.leetcode.solutions.top.interview
 
+// Reference: https://leetcode.com/problems/best-time-to-buy-and-sell-stock
 class BestTimeToBuyAndSellStock {
 
-    //Brute-force solution
+    // Brute-force solution
     fun maxProfit1(prices: IntArray): Int {
         var maxProfit = 0
         val n = prices.size
@@ -20,7 +21,6 @@ class BestTimeToBuyAndSellStock {
         }
         return maxProfit
     }
-
 
     fun maxProfit(prices: IntArray): Int {
         var maxProfit = 0

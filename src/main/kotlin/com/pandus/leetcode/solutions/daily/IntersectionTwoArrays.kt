@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/intersection-of-two-arrays
+// Reference: https://leetcode.com/problems/intersection-of-two-arrays
 class IntersectionTwoArrays {
     fun intersection(nums1: IntArray, nums2: IntArray): IntArray {
         val set1: MutableSet<Int> = HashSet()

@@ -1,11 +1,11 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.*
+import java.util.PriorityQueue
+import kotlin.Comparator
 import kotlin.math.max
 import kotlin.math.min
 
-
-//Reference: https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit
+// Reference: https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit
 class LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit {
     fun longestSubarray(nums: IntArray, limit: Int): Int {
         val maxHeap = PriorityQueue { a: IntArray, b: IntArray -> b[0] - a[0] }
@@ -18,7 +18,8 @@ class LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit {
             maxHeap.offer(intArrayOf(nums[right], right))
             minHeap.offer(intArrayOf(nums[right], right))
 
-            // Check if the absolute difference between the maximum and minimum values in the current window exceeds the limit
+            // Check if the absolute difference between the maximum and minimum values
+            // in the current window exceeds the limit
             while (maxHeap.peek()[0] - minHeap.peek()[0] > limit) {
                 // Move the left pointer to the right until the condition is satisfied.
                 // This ensures we remove the element causing the violation

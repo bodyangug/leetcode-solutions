@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.Stack
 
-
-//Reference: https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses
+// Reference: https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses
 class ReverseSubstringsBetweenEachPairParentheses {
     private val result = StringBuilder()
 

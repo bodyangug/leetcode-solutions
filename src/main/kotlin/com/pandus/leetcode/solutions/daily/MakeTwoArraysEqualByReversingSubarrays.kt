@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays
+// Reference: https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays
 class MakeTwoArraysEqualByReversingSubarrays {
     fun canBeEqual(target: IntArray, arr: IntArray): Boolean {
         arr.sort()

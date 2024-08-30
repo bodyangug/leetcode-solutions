@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/find-all-groups-of-farmland
+// Reference: https://leetcode.com/problems/find-all-groups-of-farmland
 class FindAllGroupsOfFarmland {
     // The four directions in which traversal will be done.
     val dirs = arrayOf(
@@ -20,7 +19,7 @@ class FindAllGroupsOfFarmland {
         return x >= 0 && x < N && y >= 0 && y < M
     }
 
-    private fun DFS(land: Array<IntArray>, visited: Array<BooleanArray>, x: Int, y: Int) {
+    private fun dfs(land: Array<IntArray>, visited: Array<BooleanArray>, x: Int, y: Int) {
         visited[x][y] = true
         // Maximum x and y for the bottom right cell.
         row2 = maxOf(row2, x)
@@ -32,10 +31,11 @@ class FindAllGroupsOfFarmland {
             val newY = y + dir[1]
 
             // If the neighbor is within the matrix and is a farmland cell and is not visited yet.
-            if (isWithinFarm(newX, newY, land.size, land[0].size) && !visited[newX][newY]
-                && land[newX][newY] == 1
+            if (isWithinFarm(newX, newY, land.size, land[0].size) &&
+                !visited[newX][newY] &&
+                land[newX][newY] == 1
             ) {
-                DFS(land, visited, newX, newY)
+                dfs(land, visited, newX, newY)
             }
         }
     }
@@ -50,7 +50,7 @@ class FindAllGroupsOfFarmland {
                     row2 = 0
                     col2 = 0
 
-                    DFS(land, visited, row1, col1)
+                    dfs(land, visited, row1, col1)
 
                     val arr = intArrayOf(row1, col1, row2, col2)
                     ans.add(arr)

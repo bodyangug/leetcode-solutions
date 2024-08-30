@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-//Reference: https://leetcode.com/problems/same-tree
+// Reference: https://leetcode.com/problems/same-tree
 class SameTree {
 
 //    fun isSameTree(p: TreeNode?, q: TreeNode?): Boolean {
@@ -39,6 +39,4 @@ class SameTree {
         }
         return ans
     }
-
-
 }

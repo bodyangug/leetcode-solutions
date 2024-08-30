@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/sequential-digits
+// Reference: https://leetcode.com/problems/sequential-digits
 class SequentialDigits {
     fun sequentialDigits(low: Int, high: Int): List<Int> {
         val sequence = "123456789"

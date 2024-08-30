@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/reverse-prefix-of-word
+// Reference: https://leetcode.com/problems/reverse-prefix-of-word
 class ReversePrefixOfWord {
     fun reversePrefix(word: String, ch: Char): String {
         val chIndex = word.indexOf(ch)

@@ -1,9 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.Arrays
-
-
-//Reference: https://leetcode.com/problems/relative-sort-array
+// Reference: https://leetcode.com/problems/relative-sort-array
 class RelativeSortArray {
     fun relativeSortArray(arr1: IntArray, arr2: IntArray): IntArray {
         val countMap = IntArray(1001) // Given constraints: 0 <= arr1[i], arr2[i] <= 1000
@@ -33,5 +30,4 @@ class RelativeSortArray {
         // Convert result list to array
         return result.toIntArray()
     }
-
 }

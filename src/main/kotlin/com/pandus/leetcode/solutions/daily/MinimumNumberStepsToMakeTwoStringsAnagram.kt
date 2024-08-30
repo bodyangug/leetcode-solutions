@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram
+// Reference: https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram
 class MinimumNumberStepsToMakeTwoStringsAnagram {
     fun minSteps(s: String, t: String): Int {
         val count = IntArray(26)

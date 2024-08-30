@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/set-mismatch
+// Reference: https://leetcode.com/problems/set-mismatch
 class SetMismatch {
     fun findErrorNums(nums: IntArray): IntArray {
         var duplicate = -1

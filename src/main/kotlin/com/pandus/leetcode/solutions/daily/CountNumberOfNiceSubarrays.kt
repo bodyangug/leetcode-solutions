@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/count-number-of-nice-subarrays
+// Reference: https://leetcode.com/problems/count-number-of-nice-subarrays
 class CountNumberOfNiceSubarrays {
     fun numberOfSubarrays(nums: IntArray, k: Int): Int {
         var currSum = 0

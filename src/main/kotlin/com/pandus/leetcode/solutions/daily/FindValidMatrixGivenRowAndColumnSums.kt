@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.min
 
-//Reference:
+// Reference: https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums
 class FindValidMatrixGivenRowAndColumnSums {
     fun restoreMatrix(rowSum: IntArray, colSum: IntArray): Array<IntArray> {
         val m = rowSum.size

@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/cherry-pickup-ii/description/?envType=daily-question&envId=2024-02-11
+// Reference: https://leetcode.com/problems/cherry-pickup-ii
 class CherryPickup2 {
     fun cherryPickup(grid: Array<IntArray>): Int {
         val m = grid.size

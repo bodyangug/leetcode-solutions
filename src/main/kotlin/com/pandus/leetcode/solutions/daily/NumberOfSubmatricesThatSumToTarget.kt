@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/number-of-submatrices-that-sum-to-target
+// Reference: https://leetcode.com/problems/number-of-submatrices-that-sum-to-target
 class NumberOfSubmatricesThatSumToTarget {
     fun numSubmatrixSumTarget(matrix: Array<IntArray>, target: Int): Int {
         val rows = matrix.size

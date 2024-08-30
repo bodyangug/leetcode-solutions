@@ -1,9 +1,9 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island
+// Reference: https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island
 class MinimumNumberOfDaysToDisconnectIsland {
     // Directions for adjacent cells: right, left, down, up
-    private val DIRECTIONS: Array<IntArray> = arrayOf(
+    private val directions: Array<IntArray> = arrayOf(
         intArrayOf(0, 1),
         intArrayOf(0, -1),
         intArrayOf(1, 0),
@@ -25,7 +25,7 @@ class MinimumNumberOfDaysToDisconnectIsland {
         // Try removing each land cell
         for (row in 0 until rows) {
             for (col in 0 until cols) {
-                if (grid[row][col] == 0) continue  // Skip water
+                if (grid[row][col] == 0) continue // Skip water
 
                 // Temporarily change to water
                 grid[row][col] = 0
@@ -71,7 +71,7 @@ class MinimumNumberOfDaysToDisconnectIsland {
         visited[row][col] = true
 
         // Check all adjacent cells
-        for (direction in DIRECTIONS) {
+        for (direction in directions) {
             val newRow = row + direction[0]
             val newCol = col + direction[1]
             // Explore if valid land cell

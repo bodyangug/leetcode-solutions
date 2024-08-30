@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/grumpy-bookstore-owner
+// Reference: https://leetcode.com/problems/grumpy-bookstore-owner
 class GrumpyBookstoreOwner {
     fun maxSatisfied(customers: IntArray, grumpy: IntArray, minutes: Int): Int {
         val n = customers.size

@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/the-number-of-beautiful-subsets
+// Reference: https://leetcode.com/problems/the-number-of-beautiful-subsets
 class NumberOfBeautifulSubsets {
     private var count = 0
     private val visited = mutableMapOf<Int, Int>()

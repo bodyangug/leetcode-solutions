@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.PriorityQueue
 
-//Reference: https://leetcode.com/problems/kth-largest-element-in-a-stream
+// Reference: https://leetcode.com/problems/kth-largest-element-in-a-stream
 class KthLargestElementInStream(k: Int, nums: IntArray) {
 
     private val k = k
@@ -23,6 +23,4 @@ class KthLargestElementInStream(k: Int, nums: IntArray) {
         }
         return minHeap.peek()
     }
-
-
 }

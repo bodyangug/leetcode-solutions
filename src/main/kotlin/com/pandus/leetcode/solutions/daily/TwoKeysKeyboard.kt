@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.min
 
-//Reference: https://leetcode.com/problems/2-keys-keyboard
+// Reference: https://leetcode.com/problems/2-keys-keyboard
 class TwoKeysKeyboard {
     private var n: Int = 0
 

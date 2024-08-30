@@ -3,8 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import java.util.LinkedList
 import java.util.Queue
 
-
-//Reference: https://leetcode.com/problems/open-the-lock
+// Reference: https://leetcode.com/problems/open-the-lock
 class OpenTheLock {
 
     fun openLock(deadends: Array<String>, target: String): Int {

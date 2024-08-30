@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.weekly
 
 import com.pandus.leetcode.solutions.model.ListNode
 
-
-//Reference: https://leetcode.com/problems/winner-of-the-linked-list-game
+// Reference: https://leetcode.com/problems/winner-of-the-linked-list-game
 class WinnerOfLinkedListGame {
     fun gameResult(head: ListNode?): String {
         var even = head

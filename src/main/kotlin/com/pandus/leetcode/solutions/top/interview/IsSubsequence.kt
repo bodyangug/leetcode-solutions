@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.top.interview
 
-//Reference: https://leetcode.com/problems/is-subsequence
+// Reference: https://leetcode.com/problems/is-subsequence
 class IsSubsequence {
     fun isSubsequence(s: String, t: String): Boolean {
         var hit = 0

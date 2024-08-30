@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import java.lang.Integer.max
 
-//Reference: https://leetcode.com/problems/average-waiting-time
+// Reference: https://leetcode.com/problems/average-waiting-time
 class AverageWaitingTime {
     fun averageWaitingTime(customers: Array<IntArray>): Double {
         var nextIdleTime = 0

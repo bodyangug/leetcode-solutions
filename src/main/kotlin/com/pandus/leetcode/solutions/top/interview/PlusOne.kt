@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.top.interview
 
-//Reference: https://leetcode.com/problems/plus-one
+// Reference: https://leetcode.com/problems/plus-one
 class PlusOne {
     fun plusOne(digits: IntArray): IntArray {
         val lastNum = digits.last()

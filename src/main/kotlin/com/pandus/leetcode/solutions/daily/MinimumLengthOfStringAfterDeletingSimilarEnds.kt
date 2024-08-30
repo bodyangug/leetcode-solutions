@@ -1,15 +1,15 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends
+// Reference: https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends
 class MinimumLengthOfStringAfterDeletingSimilarEnds {
     fun minimumLength(s: String): Int {
         val charArray = s.toCharArray()
         var (start, end) = 0 to charArray.lastIndex
         while (start < end && charArray[start] == charArray[end]) {
             val c = charArray[start]
-            //prefix
+            // prefix
             while (start <= end && charArray[start] == c) start++
-            //suffix
+            // suffix
             while (end > start && charArray[end] == c) end--
         }
         return end - start + 1

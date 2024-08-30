@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/n-th-tribonacci-number
+// Reference: https://leetcode.com/problems/n-th-tribonacci-number
 class NthTribonacciNumber {
     private val dp: MutableMap<Int, Int> = mutableMapOf(Pair(0, 0), Pair(1, 1), Pair(2, 1))
 

@@ -4,8 +4,7 @@ import java.util.Stack
 import kotlin.math.max
 import kotlin.math.min
 
-
-//Reference: https://leetcode.com/problems/maximum-score-from-removing-substrings
+// Reference: https://leetcode.com/problems/maximum-score-from-removing-substrings
 class MaximumScoreFromRemovingSubstrings {
     fun maximumGain(s: String, x: Int, y: Int): Int {
         var totalScore = 0
@@ -33,8 +32,9 @@ class MaximumScoreFromRemovingSubstrings {
         // Iterate through each character in the input string
         for (currentChar in input) {
             // Check if current character forms the target pair with the top of the stack
-            if (currentChar == targetPair[1] && !charStack.isEmpty()
-                && charStack.peek() == targetPair[0]
+            if (currentChar == targetPair[1] &&
+                !charStack.isEmpty() &&
+                charStack.peek() == targetPair[0]
             ) {
                 charStack.pop() // Remove the matching character from the stack
             } else {

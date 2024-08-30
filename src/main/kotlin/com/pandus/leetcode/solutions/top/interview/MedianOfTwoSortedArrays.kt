@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.top.interview
 
 import java.util.stream.Collectors
 
-
-//Reference:
+// Reference: https://leetcode.com/problems/median-of-two-sorted-arrays
 class MedianOfTwoSortedArrays {
     fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
         val general: MutableList<Int> = ArrayList(nums1.size + nums2.size)

@@ -1,9 +1,8 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.*
+import java.util.TreeMap
 
-
-//Reference: https://leetcode.com/problems/number-of-atoms
+// Reference: https://leetcode.com/problems/number-of-atoms
 class NumberAtoms {
     var index: Int = 0
 

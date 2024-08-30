@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/sort-characters-by-frequency
+// Reference: https://leetcode.com/problems/sort-characters-by-frequency
 class SortCharactersByFrequency {
     fun frequencySort(s: String): String {
         return s.groupingBy { it }

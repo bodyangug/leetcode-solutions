@@ -3,7 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import kotlin.math.max
 import kotlin.math.min
 
-//Reference: https://leetcode.com/problems/maximal-rectangle
+// Reference: https://leetcode.com/problems/maximal-rectangle
 class MaximalRectangle {
     fun maximalRectangle(matrix: Array<CharArray>): Int {
         if (matrix.isEmpty()) return 0

@@ -2,11 +2,10 @@ package com.pandus.leetcode.solutions.daily
 
 import java.util.Stack
 
-
-//Reference: https://leetcode.com/problems/evaluate-reverse-polish-notation
+// Reference: https://leetcode.com/problems/evaluate-reverse-polish-notation
 class EvaluateReversePolishNotation {
 
-    private val OPERATIONS: Map<String, (Int, Int) -> Int> = mapOf(
+    private val operations: Map<String, (Int, Int) -> Int> = mapOf(
         "+" to { a, b -> a + b },
         "-" to { a, b -> a - b },
         "*" to { a, b -> a * b },
@@ -17,10 +16,10 @@ class EvaluateReversePolishNotation {
         val stack = Stack<Int>()
 
         for (token in tokens) {
-            if (token in OPERATIONS) {
+            if (token in operations) {
                 val number2 = stack.pop()
                 val number1 = stack.pop()
-                stack.push(OPERATIONS[token]!!.invoke(number1, number2))
+                stack.push(operations[token]!!.invoke(number1, number2))
             } else {
                 stack.push(token.toInt())
             }

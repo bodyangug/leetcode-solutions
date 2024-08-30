@@ -3,19 +3,20 @@ package com.pandus.leetcode.solutions.daily
 import com.pandus.leetcode.solutions.model.TreeNode
 import java.util.LinkedList
 
-//Reference: https://leetcode.com/problems/even-odd-tree/description
+// Reference: https://leetcode.com/problems/even-odd-tree
 class EvenOddTree {
 
     // key - level 0..n
     // value - list of values from left to right
     private val levels = LinkedHashMap<Int, LinkedList<Int>>()
+
     fun isEvenOddTree(root: TreeNode?): Boolean {
-        //1. build map of levels
+        // 1. build map of levels
         root?.let {
             dfs(it, 0)
         }
 
-        //2. check values on each levels
+        // 2. check values on each levels
         for (entry in levels.entries) {
             if (entry.key % 2 == 0) {
                 // check even rule

@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters
+// Reference: https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters
 class MaximumLengthOfConcatenatedStringWithUniqueCharacters {
     fun maxLength(arr: List<String>): Int {
         return dfs(arr, 0, "", HashSet())

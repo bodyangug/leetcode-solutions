@@ -1,9 +1,8 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.*
+import java.util.PriorityQueue
 
-
-//Reference: https://leetcode.com/problems/minimum-cost-to-hire-k-workers
+// Reference: https://leetcode.com/problems/minimum-cost-to-hire-k-workers
 class MinimumCostToHireKWorkers {
     fun mincostToHireWorkers(quality: IntArray, wage: IntArray, k: Int): Double {
         val n = quality.size

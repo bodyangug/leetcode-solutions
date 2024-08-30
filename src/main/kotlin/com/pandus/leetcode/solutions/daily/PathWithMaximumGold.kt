@@ -2,9 +2,9 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.max
 
-//Reference: https://leetcode.com/problems/path-with-maximum-gold
+// Reference: https://leetcode.com/problems/path-with-maximum-gold
 class PathWithMaximumGold {
-    private val DIRECTIONS = intArrayOf(0, 1, 0, -1, 0)
+    private val directions = intArrayOf(0, 1, 0, -1, 0)
 
     fun getMaximumGold(grid: Array<IntArray>): Int {
         val rows = grid.size
@@ -36,8 +36,8 @@ class PathWithMaximumGold {
             maxGold = max(
                 maxGold.toDouble(),
                 dfsBacktrack(
-                    grid, rows, cols, DIRECTIONS[direction] + row,
-                    DIRECTIONS[direction + 1] + col
+                    grid, rows, cols, directions[direction] + row,
+                    directions[direction + 1] + col
                 ).toDouble()
             ).toInt()
         }

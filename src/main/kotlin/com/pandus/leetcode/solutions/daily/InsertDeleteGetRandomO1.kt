@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/insert-delete-getrandom-o1
+// Reference: https://leetcode.com/problems/insert-delete-getrandom-o1
 class InsertDeleteGetRandomO1 {
 
     private val storage: HashMap<Int, Int> = HashMap()
@@ -17,5 +16,4 @@ class InsertDeleteGetRandomO1 {
         val random = storage.keys.random()
         return storage[random]!!
     }
-
 }

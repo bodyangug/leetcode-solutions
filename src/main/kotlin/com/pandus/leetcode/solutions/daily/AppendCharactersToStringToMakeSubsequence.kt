@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/append-characters-to-string-to-make-subsequence
+// Reference: https://leetcode.com/problems/append-characters-to-string-to-make-subsequence
 class AppendCharactersToStringToMakeSubsequence {
     fun appendCharacters(s: String, t: String): Int {
         var first = 0

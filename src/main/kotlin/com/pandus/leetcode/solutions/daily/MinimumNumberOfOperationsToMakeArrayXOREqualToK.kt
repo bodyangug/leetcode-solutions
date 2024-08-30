@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference:
+// Reference:
 class MinimumNumberOfOperationsToMakeArrayXOREqualToK {
     fun minOperations(nums: IntArray, k: Int): Int {
         var k = k

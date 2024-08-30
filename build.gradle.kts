@@ -1,10 +1,11 @@
 plugins {
     kotlin("jvm") version "1.9.0"
+    id("io.gitlab.arturbosch.detekt") version "1.23.6"
     application
 }
 
-group = "org.example"
-version = "1.0-SNAPSHOT"
+group = "com.pandus.leetcode.solutions"
+version = "1.0"
 
 repositories {
     mavenCentral()
@@ -12,6 +13,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.23.3")
 }
 
 tasks.test {
@@ -19,9 +21,5 @@ tasks.test {
 }
 
 kotlin {
-    jvmToolchain(8)
-}
-
-application {
-    mainClass.set("MainKt")
+    jvmToolchain(11)
 }

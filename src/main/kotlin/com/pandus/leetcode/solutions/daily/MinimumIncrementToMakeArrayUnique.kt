@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/minimum-increment-to-make-array-unique/
+// Reference: https://leetcode.com/problems/minimum-increment-to-make-array-unique/
 class MinimumIncrementToMakeArrayUnique {
     fun minIncrementForUnique(nums: IntArray): Int {
         var minIncrements = 0

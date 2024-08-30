@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one
+// Reference: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one
 class NumberOfStepsToReduceNumberInBinaryRepresentationToOne {
 
     fun numSteps(s: String): Int {

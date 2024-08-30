@@ -2,8 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-
-//Refrence: https://leetcode.com/problems/range-sum-of-bst
+// Refrence: https://leetcode.com/problems/range-sum-of-bst
 class RangeSumOfBST {
     private var result = 0
     private var low = 0
@@ -28,5 +27,4 @@ class RangeSumOfBST {
             }
         }
     }
-
 }

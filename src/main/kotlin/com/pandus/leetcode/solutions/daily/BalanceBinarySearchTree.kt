@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.TreeNode
 
-//Reference: https://leetcode.com/problems/balance-a-binary-search-tree
+// Reference: https://leetcode.com/problems/balance-a-binary-search-tree
 class BalanceBinarySearchTree {
     fun balanceBST(root: TreeNode?): TreeNode? {
         val inorder: MutableList<Int> = ArrayList()

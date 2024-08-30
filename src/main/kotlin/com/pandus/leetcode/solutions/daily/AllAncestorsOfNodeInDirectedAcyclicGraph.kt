@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph
+// Reference: https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph
 class AllAncestorsOfNodeInDirectedAcyclicGraph {
     fun getAncestors(n: Int, edges: Array<IntArray>): List<List<Int>> {
         // Initialize adjacency list for the graph

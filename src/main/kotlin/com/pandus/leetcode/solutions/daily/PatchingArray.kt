@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/patching-array
+// Reference: https://leetcode.com/problems/patching-array
 class PatchingArray {
     fun minPatches(nums: IntArray, n: Int): Int {
         var patches = 0

@@ -3,8 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import com.pandus.leetcode.solutions.model.TreeNode
 import java.util.*
 
-
-//Reference: https://leetcode.com/problems/binary-tree-postorder-traversal
+// Reference: https://leetcode.com/problems/binary-tree-postorder-traversal
 class BinaryTreePostorderTraversal {
     private fun postorderTraversalHelper(currentNode: TreeNode?, result: MutableList<Int>) {
         if (currentNode == null) {

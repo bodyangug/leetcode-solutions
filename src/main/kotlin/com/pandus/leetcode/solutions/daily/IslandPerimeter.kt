@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-//Reference: https://leetcode.com/problems/island-perimeter
+// Reference: https://leetcode.com/problems/island-perimeter
 class IslandPerimeter {
 
     fun islandPerimeter(grid: Array<IntArray>): Int {
@@ -42,6 +42,4 @@ class IslandPerimeter {
 
         return result
     }
-
-
 }

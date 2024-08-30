@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-
-//Reference: https://leetcode.com/problems/find-center-of-star-graph
+// Reference: https://leetcode.com/problems/find-center-of-star-graph
 class FindCenterStarGraph {
     fun findCenter(edges: Array<IntArray>): Int {
         val degree: MutableMap<Int, Int> = HashMap()

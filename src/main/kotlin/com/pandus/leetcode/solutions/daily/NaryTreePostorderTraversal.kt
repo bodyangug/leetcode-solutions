@@ -2,7 +2,7 @@ package com.pandus.leetcode.solutions.daily
 
 import com.pandus.leetcode.solutions.model.Node
 
-//Reference: https://leetcode.com/problems/n-ary-tree-postorder-traversal
+// Reference: https://leetcode.com/problems/n-ary-tree-postorder-traversal
 class NaryTreePostorderTraversal {
     fun postorder(root: Node?): List<Int> {
         val result: MutableList<Int> = ArrayList()

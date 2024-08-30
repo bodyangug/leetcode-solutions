@@ -3,7 +3,7 @@ package com.pandus.leetcode.solutions.daily
 import java.util.LinkedList
 import java.util.Queue
 
-//Reference: https://leetcode.com/problems/count-sub-islands
+// Reference: https://leetcode.com/problems/count-sub-islands
 class CountSubIslands {
 
     private val directions = arrayOf(
@@ -45,12 +45,12 @@ class CountSubIslands {
                 val nextX = currX + direction[0]
                 val nextY = currY + direction[1]
 
-                if (nextX >= 0
-                    && nextY >= 0
-                    && nextX < totalRows
-                    && nextY < totalCols
-                    && !visited[nextX][nextY]
-                    && isCellLand(nextX, nextY, grid2)
+                if (nextX >= 0 &&
+                    nextY >= 0 &&
+                    nextX < totalRows &&
+                    nextY < totalCols &&
+                    !visited[nextX][nextY] &&
+                    isCellLand(nextX, nextY, grid2)
                 ) {
                     pendingCells.offer(intArrayOf(nextX, nextY))
                     visited[nextX][nextY] = true
