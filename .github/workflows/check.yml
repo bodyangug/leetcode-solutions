@@ -22,4 +22,4 @@ jobs:
           java-version: 11
           distribution: 'corretto'
       - name: Run Build & Detekt
-        run: gradlew build detekt
+        run: ./gradlew build detekt
