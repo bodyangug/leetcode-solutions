@@ -19,5 +19,7 @@ jobs:
         with:
           java-version: 11
           distribution: 'corretto'
+      - name: Add permission to execute gradlew
+        run: chmod +x ${{ github.workspace }}/gradlew
       - name: Run Build & Detekt
         run: ./gradlew build detekt
