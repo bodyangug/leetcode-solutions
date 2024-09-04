@@ -21,7 +21,7 @@ class WalkingRobotSimulation {
 
         for (command in commands) {
             when (command) {
-                -1 -> currentDirection = (currentDirection + 1) % 4  // turn right
+                -1 -> currentDirection = (currentDirection + 1) % 4 // turn right
                 -2 -> currentDirection = (currentDirection + 3) % 4 // turn left
                 else -> { // move forward
                     val direction = directions[currentDirection]
