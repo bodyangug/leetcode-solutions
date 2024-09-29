@@ -5,18 +5,18 @@ class AllOOneDataStructure {
     val hashmap = HashMap<String, Int>()
 
     fun inc(key: String) {
-        if(hashmap.containsKey(key)){
+        if (hashmap.containsKey(key)) {
             hashmap[key] = hashmap.getValue(key) + 1
-        }else{
+        } else {
             hashmap[key] = 1
         }
     }
 
     fun dec(key: String) {
-        if(hashmap.containsKey(key)){
+        if (hashmap.containsKey(key)) {
             hashmap[key] = hashmap.getValue(key) - 1
         }
-        if(hashmap[key] != null && hashmap.getValue(key) == 0){
+        if (hashmap[key] != null && hashmap.getValue(key) == 0) {
             hashmap.remove(key)
         }
     }
@@ -24,8 +24,8 @@ class AllOOneDataStructure {
     fun getMaxKey(): String {
         var max = ""
         var maxValue = 0
-        for(entry in hashmap){
-            if(entry.value > maxValue){
+        for (entry in hashmap) {
+            if (entry.value > maxValue) {
                 maxValue = entry.value
                 max = entry.key
             }
@@ -36,8 +36,8 @@ class AllOOneDataStructure {
     fun getMinKey(): String {
         var min = ""
         var minValue = Int.MAX_VALUE
-        for(entry in hashmap){
-            if(entry.value <= minValue){
+        for (entry in hashmap) {
+            if (entry.value <= minValue) {
                 minValue = entry.value
                 min = entry.key
             }
