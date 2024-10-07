@@ -20,10 +20,12 @@ class SentenceSimilarityIII {
         var k = 0
         var l = n - 1
         while (i < m && k < n && words1[i] == words2[k]) {
-            i++; k++
+            i++
+            k++
         }
         while (j >= 0 && l >= 0 && words1[j] == words2[l]) {
-            j--; l--
+            j--
+            l--
         }
         return i > j
     }
