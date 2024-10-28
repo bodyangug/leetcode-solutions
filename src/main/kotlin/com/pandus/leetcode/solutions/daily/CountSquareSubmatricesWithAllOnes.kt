@@ -14,7 +14,7 @@ class CountSquareSubmatricesWithAllOnes {
                     if (i == 0 || j == 0) {
                         dp[i][j] = 1
                     } else {
-                        dp[i][j] = minOf(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1
+                        dp[i][j] = minOf(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]) + 1
                     }
                     total += dp[i][j]
                 }
