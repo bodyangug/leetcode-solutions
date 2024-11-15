@@ -3,7 +3,6 @@ package com.pandus.leetcode.solutions.daily
 import java.util.PriorityQueue
 import kotlin.math.ceil
 
-
 // Reference: https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store
 class MinimizedMaximumOfProductsDistributedToAnyStore {
     fun minimizedMaximum(n: Int, quantities: IntArray): Int {
