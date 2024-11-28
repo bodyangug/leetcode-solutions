@@ -2,7 +2,6 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.min
 
-
 // Reference: https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i
 class ShortestDistanceAfterRoadAdditionQueriesI {
     private fun findMinDistance(
