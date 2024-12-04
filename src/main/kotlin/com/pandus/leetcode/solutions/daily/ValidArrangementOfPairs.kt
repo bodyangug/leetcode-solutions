@@ -13,7 +13,7 @@ class ValidArrangementOfPairs {
             f[b] = -1 + (f[b] ?: 0)
         }
         val first = f.keys.firstOrNull { f[it]!! > 0 } ?: pairs[0][0]
-        val stack = mutableListOf(first, -1);
+        val stack = mutableListOf(first, -1)
         var prev = -1
         return Array(pairs.size) { i ->
             do {
