@@ -10,12 +10,15 @@ class MinimumNumberOfOperationsToSortBinaryTreeByLevel {
         while (q.size > 0) {
             val s = ArrayList<Int>()
             repeat(q.size) {
-                val n = q.removeFirst(); s += n.`val`
-                n.left?.let { q += it }; n.right?.let { q += it }
+                val n = q.removeFirst()
+                s += n.`val`
+                n.left?.let { q += it }
+                n.right?.let { q += it }
             }
             val ix = s.indices.sortedBy { s[it] }.toIntArray()
             for (i in ix.indices) while (ix[i] != i) {
-                ix[i] = ix[ix[i]].also { ix[ix[i]] = ix[i] }; res++
+                ix[i] = ix[ix[i]].also { ix[ix[i]] = ix[i] }
+                res++
             }
         }
         return res
