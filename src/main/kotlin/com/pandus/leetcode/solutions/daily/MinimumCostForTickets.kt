@@ -3,7 +3,6 @@ package com.pandus.leetcode.solutions.daily
 import kotlin.math.max
 import kotlin.math.min
 
-
 // Reference: https://leetcode.com/problems/minimum-cost-for-tickets
 class MinimumCostForTickets {
     fun mincostTickets(days: IntArray, costs: IntArray): Int {
