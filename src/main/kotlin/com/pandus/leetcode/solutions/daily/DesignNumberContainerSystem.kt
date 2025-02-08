@@ -1,7 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
 import java.util.*
-import kotlin.collections.HashMap
 
 // Reference: https://leetcode.com/problems/design-a-number-container-system
 class DesignNumberContainerSystem {
