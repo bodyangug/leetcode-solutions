@@ -12,7 +12,7 @@ class ConstructTheLexicographicallyLargestValidSequence {
 
             for (numberToPlace in targetNumber downTo 1) {
                 val mask = 1 shl numberToPlace
-                if ((isNumberUsed and mask) != 0) continue  // Check bitmask for used numbers
+                if ((isNumberUsed and mask) != 0) continue // Check bitmask for used numbers
 
                 isNumberUsed = isNumberUsed or mask
                 resultSequence[currentIndex] = numberToPlace
@@ -26,7 +26,7 @@ class ConstructTheLexicographicallyLargestValidSequence {
                 }
 
                 resultSequence[currentIndex] = 0
-                isNumberUsed = isNumberUsed xor mask  // Unset bitmask
+                isNumberUsed = isNumberUsed xor mask // Unset bitmask
             }
             return false
         }
@@ -34,5 +34,4 @@ class ConstructTheLexicographicallyLargestValidSequence {
         backtrack(0)
         return resultSequence
     }
-
 }
