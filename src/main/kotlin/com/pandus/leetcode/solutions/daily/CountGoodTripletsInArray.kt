@@ -8,7 +8,7 @@ class CountGoodTripletsInArray {
         fun update(index: Int, delta: Int) {
             var i = index
             while (i < tree.size) {
-                tree[i] += delta
+                tree[i] = tree[i] + delta
                 i += i and -i
             }
         }
