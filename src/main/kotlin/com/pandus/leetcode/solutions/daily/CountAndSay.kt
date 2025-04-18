@@ -28,5 +28,4 @@ class CountAndSay {
         sb.append(count).append(s.last())
         return sb.toString()
     }
-
 }
