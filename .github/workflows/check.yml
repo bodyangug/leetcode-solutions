@@ -5,20 +5,24 @@ on:
       - 'main'
     paths:
       - '**'
+  pull_request:
+    branches:
+      - 'main'
 
 jobs:
   build-agent:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout project
-        uses: actions/checkout@v3
-      - name: Validate gradle wrapper
-        uses: gradle/wrapper-validation-action@v3
-      - name: Setup java
-        uses: actions/setup-java@v3
+        uses: actions/checkout@v4
         with:
-          java-version: 11
+          fetch-depth: 0
+      - name: Setup java
+        uses: actions/setup-java@v4
+        with:
           distribution: 'corretto'
+          java-version: '17'
+          cache: 'gradle'
       - name: Add permission to execute gradlew
         run: chmod +x ${{ github.workspace }}/gradlew
       - name: Run Build & Detekt
