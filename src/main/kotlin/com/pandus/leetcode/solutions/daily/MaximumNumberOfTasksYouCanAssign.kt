@@ -1,6 +1,5 @@
 package com.pandus.leetcode.solutions.daily
 
-
 // Reference: https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign
 class MaximumNumberOfTasksYouCanAssign {
     fun maxTaskAssign(tasks: IntArray, workers: IntArray, pills: Int, strength: Int): Int {
