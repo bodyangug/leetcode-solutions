@@ -4,6 +4,6 @@ package com.pandus.leetcode.solutions.daily
 class LargestCombinationWithBitwiseANDGreaterThanZero {
     fun largestCombination(candidates: IntArray) =
         (0..31).maxOf { bit ->
-            candidates.sumBy { (it shr bit) and 1 }
+            candidates.sumOf { (it shr bit) and 1 }
         }
 }

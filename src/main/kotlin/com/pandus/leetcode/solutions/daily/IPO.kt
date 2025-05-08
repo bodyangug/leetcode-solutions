@@ -30,7 +30,7 @@ class IPO {
 }
 
 class Project(var capital: Int, var profit: Int) : Comparable<Project?> {
-    override operator fun compareTo(project: Project?): Int {
-        return capital - project!!.capital
+    override operator fun compareTo(other: Project?): Int {
+        return capital - other!!.capital
     }
 }
