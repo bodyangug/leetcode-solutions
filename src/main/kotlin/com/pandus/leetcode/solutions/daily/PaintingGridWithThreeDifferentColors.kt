@@ -2,7 +2,6 @@ package com.pandus.leetcode.solutions.daily
 
 import kotlin.math.pow
 
-
 // Reference: https://leetcode.com/problems/painting-a-grid-with-three-different-colors
 class PaintingGridWithThreeDifferentColors {
     val mod = 1_000_000_007
