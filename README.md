@@ -1,5 +1,7 @@
 # LeetCode Solutions Project
 
+- [Generated docs](https://deepwiki.com/bodyangug/leetcode-solutions)
+
 ## Project Overview
 
 This repository contains my personal solutions for various problems from LeetCode. LeetCode is a platform for learning
