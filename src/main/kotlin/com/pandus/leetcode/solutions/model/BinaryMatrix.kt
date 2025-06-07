@@ -1,11 +1,11 @@
 package com.pandus.leetcode.solutions.model
 
-class BinaryMatrix {
+class BinaryMatrix(private val matrix: Array<IntArray>) {
     fun get(row: Int, col: Int): Int {
-        return 0
+        return matrix[row][col]
     }
 
     fun dimensions(): List<Int> {
-        return emptyList()
+        return listOf(matrix.size, if (matrix.isNotEmpty()) matrix[0].size else 0)
     }
 }

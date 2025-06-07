@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-// Reference: https://leetcode.com/problems/count-of-interesting-subarrays/description
+// Reference: https://leetcode.com/problems/count-of-interesting-subarrays
 class CountOfInterestingSubarrays {
     fun countInterestingSubarrays(
         nums: List<Int>,

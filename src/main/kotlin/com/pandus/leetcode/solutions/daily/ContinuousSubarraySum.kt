@@ -1,6 +1,6 @@
 package com.pandus.leetcode.solutions.daily
 
-// Reference: https://leetcode.com/problems/continuous-subarray-sum/
+// Reference: https://leetcode.com/problems/continuous-subarray-sum
 class ContinuousSubarraySum {
     fun checkSubarraySum(nums: IntArray, k: Int): Boolean {
         var prefixMod = 0
