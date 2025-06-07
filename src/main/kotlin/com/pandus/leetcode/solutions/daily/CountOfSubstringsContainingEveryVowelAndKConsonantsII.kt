@@ -1,4 +1,4 @@
-package com.pandus.leetcode.solutions
+package com.pandus.leetcode.solutions.daily
 
 // Reference: https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii
 class CountOfSubstringsContainingEveryVowelAndKConsonantsII {
