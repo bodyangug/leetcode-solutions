@@ -8,7 +8,7 @@ class MinimizeMaximumDifferenceOfPairs {
         while (i < nums.size - 1) {
             if (nums[i + 1] - nums[i] <= threshold) {
                 count++
-                i += 2  // Skip the pair
+                i += 2 // Skip the pair
             } else {
                 i++
             }
