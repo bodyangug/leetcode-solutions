@@ -3,18 +3,20 @@ package com.pandus.leetcode.solutions.daily
 // Reference: https://leetcode.com/problems/minimum-deletions-to-make-string-k-special
 class MinimumDeletionsMakeStringKSpecial {
     fun minimumDeletions(word: String, k: Int): Int {
-        val freqMap = mutableMapOf<Char, Int>()
-        for (ch in word) {
-            freqMap[ch] = freqMap.getOrDefault(ch, 0) + 1
-        }
-
+        val freq = word.groupingBy { it }.eachCount().values.sorted()
         var result = word.length
-        for (targetCount in freqMap.values) {
+
+        for (i in freq.indices) {
+            val target = freq[i]
             var deletions = 0
-            for (count in freqMap.values) {
-                when {
-                    count < targetCount -> deletions += 0
-                    count > targetCount + k -> deletions += count - (targetCount + k)
+
+            for (j in 0 until i) {
+                deletions += freq[j]
+            }
+
+            for (j in i + 1 until freq.size) {
+                if (freq[j] > target + k) {
+                    deletions += freq[j] - (target + k)
                 }
             }
             result = minOf(result, deletions)
