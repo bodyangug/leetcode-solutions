@@ -1,6 +1,7 @@
-package com.pandus.leetcode.solutions.daily
+package com.pandus.leetcode.solutions.top.interview
 
-import java.util.*
+import java.util.LinkedList
+import java.util.Queue
 
 // Reference: https://leetcode.com/problems/snakes-and-ladders
 class SnakesAndLadders {
