@@ -1,4 +1,4 @@
-package com.pandus.leetcode.solutions.daily
+package com.pandus.leetcode.solutions.top.interview
 
 // Reference: http://leetcode.com/problems/set-matrix-zeroes
 class SetMatrixZeroes {
