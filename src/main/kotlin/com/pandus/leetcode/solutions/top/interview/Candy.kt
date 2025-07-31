@@ -1,4 +1,4 @@
-package com.pandus.leetcode.solutions.daily
+package com.pandus.leetcode.solutions.top.interview
 
 // Reference: https://leetcode.com/problems/candy
 class Candy {
