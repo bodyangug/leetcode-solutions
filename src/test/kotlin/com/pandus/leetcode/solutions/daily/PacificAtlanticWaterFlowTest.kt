@@ -1,7 +1,8 @@
 package com.pandus.leetcode.solutions.daily
 
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.Assertions.*
 
 class PacificAtlanticWaterFlowTest {
 
@@ -18,8 +19,13 @@ class PacificAtlanticWaterFlowTest {
         )
 
         val expected = listOf(
-            listOf(0, 4), listOf(1, 3), listOf(1, 4),
-            listOf(2, 2), listOf(3, 0), listOf(3, 1), listOf(4, 0)
+            listOf(0, 4),
+            listOf(1, 3),
+            listOf(1, 4),
+            listOf(2, 2),
+            listOf(3, 0),
+            listOf(3, 1),
+            listOf(4, 0)
         )
 
         val result = solution.pacificAtlantic(heights)

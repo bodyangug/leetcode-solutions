@@ -4,15 +4,42 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
 class MajorityElementTest {
+
+    private val solution = MajorityElement()
+
     @Test
-    fun majorityElement_returnsMajority_positiveCase() {
-        val solution = MajorityElement()
-        assertEquals(3, solution.majorityElement(intArrayOf(3, 2, 3)))
+    fun testExample1() {
+        val nums = intArrayOf(3, 2, 3)
+        assertEquals(3, solution.majorityElement(nums))
     }
 
     @Test
-    fun majorityElement_returnsElementForSingleElement_negativeCase() {
-        val solution = MajorityElement()
-        assertEquals(1, solution.majorityElement(intArrayOf(1)))
+    fun testExample2() {
+        val nums = intArrayOf(2, 2, 1, 1, 1, 2, 2)
+        assertEquals(2, solution.majorityElement(nums))
+    }
+
+    @Test
+    fun testSingleElement() {
+        val nums = intArrayOf(1)
+        assertEquals(1, solution.majorityElement(nums))
+    }
+
+    @Test
+    fun testAllSameElements() {
+        val nums = intArrayOf(5, 5, 5, 5, 5)
+        assertEquals(5, solution.majorityElement(nums))
+    }
+
+    @Test
+    fun testNegativeNumbers() {
+        val nums = intArrayOf(-1, -1, -1, 2, 2)
+        assertEquals(-1, solution.majorityElement(nums))
+    }
+
+    @Test
+    fun testLargerArray() {
+        val nums = intArrayOf(1, 1, 1, 1, 2, 2, 3)
+        assertEquals(1, solution.majorityElement(nums))
     }
 }
