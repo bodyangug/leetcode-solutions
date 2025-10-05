@@ -14,9 +14,9 @@ class PacificAtlanticWaterFlow {
         // Direction vectors for north, south, east, west
         val directions = arrayOf(
             intArrayOf(-1, 0), // north
-            intArrayOf(1, 0),  // south
-            intArrayOf(0, 1),  // east
-            intArrayOf(0, -1)  // west
+            intArrayOf(1, 0), // south
+            intArrayOf(0, 1), // east
+            intArrayOf(0, -1) // west
         )
 
         fun dfs(row: Int, col: Int, visited: Array<BooleanArray>) {
