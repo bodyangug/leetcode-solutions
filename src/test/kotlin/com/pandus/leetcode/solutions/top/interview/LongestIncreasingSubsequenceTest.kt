@@ -78,5 +78,4 @@ class LongestIncreasingSubsequenceTest {
         val nums = intArrayOf(1, 1, 2, 2, 3, 3)
         assertEquals(3, solution.lengthOfLIS(nums)) // [1,2,3]
     }
-
 }
