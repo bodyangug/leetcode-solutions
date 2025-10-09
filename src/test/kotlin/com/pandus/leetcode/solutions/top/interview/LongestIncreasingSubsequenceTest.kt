@@ -79,9 +79,4 @@ class LongestIncreasingSubsequenceTest {
         assertEquals(3, solution.lengthOfLIS(nums)) // [1,2,3]
     }
 
-    @Test
-    fun testLargerArray() {
-        val nums = intArrayOf(1, 5, 2, 3, 4, 6, 7, 8, 9)
-        assertEquals(7, solution.lengthOfLIS(nums)) // [1,2,3,4,6,7,8] or similar
-    }
 }

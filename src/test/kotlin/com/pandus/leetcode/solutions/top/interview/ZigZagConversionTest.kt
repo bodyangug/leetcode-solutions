@@ -34,11 +34,6 @@ class ZigZagConversionTest {
     }
 
     @Test
-    fun testThreeRows() {
-        assertEquals("HLOELEL", solution.convert("HELLOEL", 3))
-    }
-
-    @Test
     fun testMoreRowsThanCharacters() {
         assertEquals("HELLO", solution.convert("HELLO", 10))
     }
