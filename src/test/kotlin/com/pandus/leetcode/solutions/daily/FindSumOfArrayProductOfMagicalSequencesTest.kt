@@ -71,4 +71,3 @@ class FindSumOfArrayProductOfMagicalSequencesTest {
         assert(result < 1000000007)
     }
 }
-

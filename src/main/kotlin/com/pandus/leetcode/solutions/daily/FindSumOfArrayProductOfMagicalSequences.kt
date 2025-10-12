@@ -93,7 +93,6 @@ class FindSumOfArrayProductOfMagicalSequences {
                 }
             }
         }
-
         return result.toInt()
     }
 }
