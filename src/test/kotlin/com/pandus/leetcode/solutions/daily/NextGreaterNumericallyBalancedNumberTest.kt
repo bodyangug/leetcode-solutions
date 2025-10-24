@@ -2,8 +2,8 @@ package com.pandus.leetcode.solutions.daily
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertTrue
-import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.DisplayName
+import org.junit.jupiter.api.Test
 
 class NextGreaterNumericallyBalancedNumberTest {
     private val solver = NextGreaterNumericallyBalancedNumber()
@@ -61,8 +61,11 @@ class NextGreaterNumericallyBalancedNumberTest {
         for (i in 0 until expectedSequence.size - 1) {
             val current = expectedSequence[i]
             val expectedNext = expectedSequence[i + 1]
-            assertEquals(expectedNext, solver.nextBeautifulNumber(current), "Next after $current should be $expectedNext")
+            assertEquals(
+                expectedNext,
+                solver.nextBeautifulNumber(current),
+                "Next after $current should be $expectedNext"
+            )
         }
     }
 }
-
