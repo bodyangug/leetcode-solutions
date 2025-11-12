@@ -168,4 +168,3 @@ class MinimumNumberOfOperationsToMakeAllArrayElementsEqualTo1Test {
         assertEquals(4, result, "Should find coprime pair at start of array")
     }
 }
-
