@@ -4,20 +4,31 @@ package com.pandus.leetcode.solutions.daily
 class MakeSumDivisibleByP {
     fun minSubarray(nums: IntArray, p: Int): Int {
         val n = nums.size
-        val prefix = LongArray(n + 1) { 0 }
-        for (i in nums.indices) {
-            prefix[i + 1] = prefix[i] + nums[i]
+        var totalSum = 0L
+        for (num in nums) {
+            totalSum += num
         }
-        val required = prefix[n] % p
-        if (required.toInt() == 0) return 0
 
-        for (windowSize in 1 until n) {
-            var j = 0
-            while (j + windowSize - 1 < n) {
-                if ((prefix[j + windowSize] - prefix[j]) % p == required) return windowSize
-                j++
+        val target = (totalSum % p).toInt()
+        if (target == 0) return 0
+
+        val remainderMap = HashMap<Int, Int>()
+        remainderMap[0] = -1
+
+        var prefixSum = 0L
+        var minLength = n
+
+        for (i in nums.indices) {
+            prefixSum += nums[i]
+            val currentRemainder = (prefixSum % p).toInt()
+            val neededRemainder = ((currentRemainder - target + p) % p)
+            if (remainderMap.containsKey(neededRemainder)) {
+                val prevIndex = remainderMap[neededRemainder]!!
+                minLength = minOf(minLength, i - prevIndex)
             }
+            remainderMap[currentRemainder] = i
         }
-        return -1
+
+        return if (minLength == n) -1 else minLength
     }
 }
