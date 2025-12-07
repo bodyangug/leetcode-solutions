@@ -97,4 +97,3 @@ class CountOddNumbersInIntervalRangeTest {
         assertEquals(3, result, "The odd numbers between 0 and 5 are [1,3,5]")
     }
 }
-
