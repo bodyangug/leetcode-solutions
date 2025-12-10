@@ -87,7 +87,7 @@ class CountNumberOfComputerUnlockingPermutationsTest {
     @Test
     @DisplayName("Large factorial result with modulo")
     fun countPermutations_largeFactorialWithModulo() {
-        val complexity = IntArray(10) { it + 1 }  // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        val complexity = IntArray(10) { it + 1 } // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
         assertEquals(362880, solver.countPermutations(complexity))
         // Valid permutations = (n-1)! = 9! = 362880
     }
@@ -95,7 +95,7 @@ class CountNumberOfComputerUnlockingPermutationsTest {
     @Test
     @DisplayName("Large array with increasing complexity")
     fun countPermutations_largeArray() {
-        val complexity = IntArray(20) { it + 1 }  // [1, 2, 3, ..., 20]
+        val complexity = IntArray(20) { it + 1 } // [1, 2, 3, ..., 20]
         val expected = (2..19).fold(1L) { acc, i -> (acc * i) % 1000000007 }.toInt()
         assertEquals(expected, solver.countPermutations(complexity))
         // Valid permutations = (n-1)! mod 1000000007
