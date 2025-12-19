@@ -1,42 +1,50 @@
 package com.pandus.leetcode.solutions.daily
 
-import java.util.Stack
-
 // Reference: https://leetcode.com/problems/find-all-people-with-secret
 class FindAllPeopleWithSecret {
-
     fun findAllPeople(n: Int, meetings: Array<IntArray>, firstPerson: Int): List<Int> {
-        val graph = mutableMapOf<Int, MutableList<IntArray>>()
-        meetings.forEach { meeting ->
-            val (x, y, t) = meeting
-            graph.getOrPut(x) { mutableListOf() }.add(intArrayOf(t, y))
-            graph.getOrPut(y) { mutableListOf() }.add(intArrayOf(t, x))
+        // Group meetings by time for efficient processing
+        val meetingsByTime = meetings.groupBy { it[2] }.toSortedMap()
+
+        val knowsSecret = BooleanArray(n).apply {
+            this[0] = true
+            this[firstPerson] = true
         }
 
-        val earliest = IntArray(n) { Int.MAX_VALUE }.also {
-            it[0] = 0
-            it[firstPerson] = 0
-        }
+        // Process meetings in chronological order
+        for ((_, meetingsAtTime) in meetingsByTime) {
+            // Build graph for this time step
+            val graph = mutableMapOf<Int, MutableList<Int>>()
+            val peopleAtMeeting = mutableSetOf<Int>()
 
-        val stack = Stack<IntArray>().also {
-            it.push(intArrayOf(0, 0))
-            it.push(intArrayOf(firstPerson, 0))
-        }
+            for (meeting in meetingsAtTime) {
+                val (x, y) = meeting
+                graph.getOrPut(x) { mutableListOf() }.add(y)
+                graph.getOrPut(y) { mutableListOf() }.add(x)
+                peopleAtMeeting.add(x)
+                peopleAtMeeting.add(y)
+            }
 
-        while (stack.isNotEmpty()) {
-            val personTime = stack.pop()
-            val (person, time) = personTime
-            graph.getOrElse(person) { mutableListOf() }.forEach { nextPersonTime ->
-                val (t, nextPerson) = nextPersonTime
-                if (t >= time && earliest[nextPerson] > t) {
-                    earliest[nextPerson] = t
-                    stack.push(intArrayOf(nextPerson, t))
+            // BFS to spread secret among people who meet at this time
+            val queue = ArrayDeque<Int>()
+            peopleAtMeeting.filter { knowsSecret[it] }.forEach { queue.add(it) }
+
+            val visited = BooleanArray(n)
+
+            while (queue.isNotEmpty()) {
+                val person = queue.removeFirst()
+
+                if (visited[person]) continue
+                visited[person] = true
+
+                graph[person]?.forEach { neighbor ->
+                    if (!knowsSecret[neighbor]) {
+                        knowsSecret[neighbor] = true
+                        queue.add(neighbor)
+                    }
                 }
             }
         }
-
-        return (0 until n).filter { i ->
-            earliest[i] != Int.MAX_VALUE
-        }
+        return knowsSecret.indices.filter { knowsSecret[it] }
     }
 }
