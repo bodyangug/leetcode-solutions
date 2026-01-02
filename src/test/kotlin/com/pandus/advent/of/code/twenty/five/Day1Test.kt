@@ -2,7 +2,6 @@ package com.pandus.advent.of.code.twenty.five
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
-import java.io.File
 
 class Day1Test {
     private val day1 = Day1()
