@@ -2,7 +2,6 @@ package com.pandus.advent.of.code.twenty.five
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
-import java.io.File
 
 class Day1Test {
     private val day1 = Day1()
@@ -41,15 +40,6 @@ class Day1Test {
         )
         val result = day1.star1(input)
         assertEquals(3, result, "Should count 3 crossings based on example")
-    }
-
-    @Test
-    fun `star1 - should handle actual input from day1 txt file`() {
-        val input = File("/Users/bo/Documents/my-projects/leetcode-solutions/day1.txt").readLines()
-        val result = day1.star1(input)
-        // This will verify the solution works with the actual input
-        println("Star 1 result for actual input: $result")
-        assert(result >= 0) { "Result should be non-negative" }
     }
 
     @Test
@@ -95,15 +85,6 @@ class Day1Test {
         )
         val result = day1.star2(input)
         assertEquals(6, result, "Should count 6 total crossings during all rotations")
-    }
-
-    @Test
-    fun `star2 - should handle actual input from day1 txt file`() {
-        val input = File("/Users/bo/Documents/my-projects/leetcode-solutions/day1.txt").readLines()
-        val result = day1.star2(input)
-        // This will verify the solution works with the actual input
-        println("Star 2 result for actual input: $result")
-        assert(result >= 0) { "Result should be non-negative" }
     }
 
     @Test
