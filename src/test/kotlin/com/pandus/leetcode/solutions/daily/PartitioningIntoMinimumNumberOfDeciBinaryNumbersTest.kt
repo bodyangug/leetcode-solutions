@@ -140,4 +140,3 @@ class PartitioningIntoMinimumNumberOfDeciBinaryNumbersTest {
         assertEquals(9, result, "Very long number with maximum digit 9")
     }
 }
-
