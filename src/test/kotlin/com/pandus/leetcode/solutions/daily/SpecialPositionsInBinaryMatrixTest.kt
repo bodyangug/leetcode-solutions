@@ -16,7 +16,11 @@ class SpecialPositionsInBinaryMatrixTest {
             intArrayOf(1, 0, 0)
         )
         val result = solution.numSpecial(mat)
-        assertEquals(1, result, "(1, 2) is a special position because mat[1][2] == 1 and all other elements in row 1 and column 2 are 0")
+        assertEquals(
+            1,
+            result,
+            "(1, 2) is a special position because mat[1][2] == 1 and all other elements in row 1 and column 2 are 0"
+        )
     }
 
     @Test
@@ -126,4 +130,3 @@ class SpecialPositionsInBinaryMatrixTest {
         assertEquals(1, result, "Single 1 in sparse matrix is special")
     }
 }
-
