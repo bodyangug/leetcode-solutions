@@ -16,10 +16,10 @@ class GetBiggestThreeRhombusSumsInGrid {
                 for (s in 1..maxSize) {
                     var sum = 0
                     for (i in 0 until s) {
-                        sum += grid[r - s + i][c + i]       // top to right
-                        sum += grid[r + i][c + s - i]       // right to bottom
-                        sum += grid[r + s - i][c - i]       // bottom to left
-                        sum += grid[r - i][c - s + i]       // left to top
+                        sum += grid[r - s + i][c + i] // top to right
+                        sum += grid[r + i][c + s - i] // right to bottom
+                        sum += grid[r + s - i][c - i] // bottom to left
+                        sum += grid[r - i][c - s + i] // left to top
                     }
                     seen.add(sum)
                     if (seen.size > 3) seen.remove(seen.first())
