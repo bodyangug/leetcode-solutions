@@ -7,10 +7,10 @@ class MaximizeDistanceBetweenPointsOnSquare {
         // Map each point to its perimeter position
         val pos = points.map { (x, y) ->
             when {
-                y == 0 -> x.toLong()                    // bottom edge
-                x == side -> side.toLong() + y           // right edge
-                y == side -> 3L * side - x               // top edge
-                else -> 4L * side - y                    // left edge (x==0)
+                y == 0 -> x.toLong()
+                x == side -> side.toLong() + y
+                y == side -> 3L * side - x
+                else -> 4L * side - y
             }
         }.toLongArray()
         pos.sort()
