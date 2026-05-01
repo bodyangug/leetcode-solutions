@@ -26,4 +26,3 @@ class RotateFunctionTest {
         assertEquals(3, solution.maxRotateFunction(intArrayOf(1, 3)))
     }
 }
-
