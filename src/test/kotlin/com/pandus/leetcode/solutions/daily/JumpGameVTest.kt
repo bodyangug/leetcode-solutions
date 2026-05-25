@@ -37,4 +37,3 @@ class JumpGameVTest {
         assertEquals(2, solution.maxJumps(intArrayOf(2, 1), 1))
     }
 }
-
