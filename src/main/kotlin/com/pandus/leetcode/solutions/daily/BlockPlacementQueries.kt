@@ -39,7 +39,8 @@ class BlockPlacementQueries {
 
     private fun update(tree: IntArray, node: Int, start: Int, end: Int, idx: Int, value: Int) {
         if (start == end) {
-            tree[node] = value; return
+            tree[node] = value
+            return
         }
         val mid = (start + end) / 2
         if (idx <= mid) update(tree, 2 * node, start, mid, idx, value)
