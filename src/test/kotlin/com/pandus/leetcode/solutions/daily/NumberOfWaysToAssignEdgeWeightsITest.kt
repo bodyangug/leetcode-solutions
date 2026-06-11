@@ -103,4 +103,3 @@ class NumberOfWaysToAssignEdgeWeightsITest {
         assertEquals(4, solution.assignEdgeWeights(edges))
     }
 }
-
