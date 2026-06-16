@@ -80,4 +80,3 @@ class DeleteMiddleNodeOfLinkedListTest {
         assertArrayEquals(intArrayOf(1, 3), toArray(output))
     }
 }
-
