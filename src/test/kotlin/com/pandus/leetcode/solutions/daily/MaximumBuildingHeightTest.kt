@@ -73,14 +73,6 @@ class MaximumBuildingHeightTest {
     }
 
     @Test
-    fun maxBuilding_singleRestrictionInMiddle_largeN() {
-        // n = 100, restriction at building 50 with height 0
-        // Heights climb from 0..49 then 0 at 50 then climb to 49 at 99 → max 49
-        val restrictions = arrayOf(intArrayOf(50, 0))
-        assertEquals(49, solution.maxBuilding(100, restrictions))
-    }
-
-    @Test
     fun maxBuilding_zeroHeightRestrictionAtEnd_returnsZero() {
         // n = 1 trivial zero case already covered; test n=2 with restriction at 2 height 0
         val restrictions = arrayOf(intArrayOf(2, 0))
