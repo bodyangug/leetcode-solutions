@@ -72,4 +72,3 @@ class NumberOfZigZagArraysIITest {
         assert(result in 0 until mod)
     }
 }
-
