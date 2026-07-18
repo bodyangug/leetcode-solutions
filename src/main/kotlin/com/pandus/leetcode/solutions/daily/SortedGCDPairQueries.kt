@@ -2,11 +2,6 @@ package com.pandus.leetcode.solutions.daily
 
 // Reference: https://leetcode.com/problems/sorted-gcd-pair-queries
 class SortedGCDPairQueries {
-    // You are given an integer array nums of length n and an integer array queries.
-    //Let gcdPairs denote an array obtained by calculating the GCD of all possible pairs (nums[i], nums[j]), where 0 <= i < j < n, and then sorting these values in ascending order.
-    //For each query queries[i], you need to find the element at index queries[i] in gcdPairs.
-    //Return an integer array answer, where answer[i] is the value at gcdPairs[queries[i]] for each query.
-    //The term gcd(a, b) denotes the greatest common divisor of a and b.
     fun gcdValues(nums: IntArray, queries: LongArray): IntArray {
         val maxVal = nums.maxOrNull() ?: 0
 

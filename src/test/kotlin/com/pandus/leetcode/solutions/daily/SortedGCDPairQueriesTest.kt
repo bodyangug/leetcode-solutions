@@ -13,7 +13,7 @@ class SortedGCDPairQueriesTest {
         val expected = intArrayOf(1, 2, 2)
         assertArrayEquals(expected, solution.gcdValues(nums, queries))
     }
- 
+
     @Test
     fun `example 2`() {
         val nums = intArrayOf(4, 4, 2, 1)
