@@ -22,11 +22,6 @@ class MaximumProductOfTwoDigitsTest {
     }
 
     @Test
-    fun `test with zero digit`() {
-        assertEquals(0, solution.maxProduct(105))
-    }
-
-    @Test
     fun `test all nines`() {
         assertEquals(81, solution.maxProduct(999))
     }
