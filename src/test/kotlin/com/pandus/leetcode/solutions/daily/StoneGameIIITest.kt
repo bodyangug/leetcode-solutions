@@ -96,7 +96,7 @@ class StoneGameIIITest {
 
         assertEquals("Tie", result, "Every pile is zero so the game ends in a tie")
     }
-    
+
     @Test
     @DisplayName("Longer array: stoneValue = [-1,-2,-3,7,-8], returns Bob")
     fun testLongerArray() {
