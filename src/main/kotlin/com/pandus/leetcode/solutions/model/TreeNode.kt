@@ -4,4 +4,7 @@ class TreeNode(
     var `val`: Int,
     var left: TreeNode? = null,
     var right: TreeNode? = null
-)
+) {
+    constructor(rootVal: Int) : this(rootVal, null, null) {
+    }
+}
